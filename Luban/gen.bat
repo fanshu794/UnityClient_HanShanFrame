@@ -1,6 +1,6 @@
 set WORKSPACE=.
 
-set LUBAN_DLL=%WORKSPACE%\Tools\Luban\Luban.dll
+set LUBAN_DLL=%WORKSPACE%\Tools\LubanDll\Luban.dll
 set CONF_ROOT=%WORKSPACE%\MiniTemplate
 
 dotnet %LUBAN_DLL% ^
