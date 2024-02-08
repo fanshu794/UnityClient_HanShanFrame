@@ -8,7 +8,7 @@ dotnet %LUBAN_DLL% ^
     -c cs-bin ^
     -d bin  ^
     --conf %CONF_ROOT%\luban.conf ^
-    -x outputCodeDir=%WORKSPACE%/../Assets/Scripts/game/LubanCode ^
+    -x outputCodeDir=%WORKSPACE%/../Assets/Scripts/game/Gen/LubanCode ^
     -x outputDataDir=%WORKSPACE%/../Assets/Res/LubanGen ^
     -x pathValidator.rootDir=%WORKSPACE%\Projects\Csharp_Unity_bin ^
     -x l10n.textProviderFile=*@%WORKSPACE%\MiniTemplate\Datas
