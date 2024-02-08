@@ -1,0 +1,5 @@
+syntax="proto3"
+message Person{
+    optional int32 account=1;//这里的1是指属性顺序，并非赋值，第1个，后续可供扩展
+    string password=2;
+}

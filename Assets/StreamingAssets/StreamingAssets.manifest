@@ -1,0 +1,66 @@
+ManifestFileVersion: 0
+CRC: 1713474812
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: assets/res/allinone/11.unity3d
+      Dependencies: {}
+    Info_1:
+      Name: assets/res/oneinone/22/gameobjec2.unity3d
+      Dependencies: {}
+    Info_2:
+      Name: assets/res/oneinone/22/gameobject1.unity3d
+      Dependencies: {}
+    Info_3:
+      Name: assets/res/oneinone/ui/prefab/subview_test1.unity3d
+      Dependencies: {}
+    Info_4:
+      Name: assets/res/oneinone/ui/prefab/subview_test2.unity3d
+      Dependencies: {}
+    Info_5:
+      Name: assets/res/oneinone/ui/prefab/uiequipchoiseview.unity3d
+      Dependencies:
+        Dependency_0: assets/res/oneinone/ui/prefab/uielement/btncommon.unity3d
+        Dependency_1: assets/res/allinone/textmesh pro/shaders/tmp_sdf-mobile.shader
+    Info_6:
+      Name: assets/res/oneinone/ui/prefab/uiequipdetailview.unity3d
+      Dependencies:
+        Dependency_0: assets/res/oneinone/ui/prefab/uielement/btncommon.unity3d
+        Dependency_1: assets/res/allinone/textmesh pro/shaders/tmp_sdf-mobile.shader
+    Info_7:
+      Name: assets/res/oneinone/ui/prefab/uiheroview.unity3d
+      Dependencies:
+        Dependency_0: assets/res/oneinone/ui/prefab/uielement/btncommon.unity3d
+        Dependency_1: assets/res/oneinone/ui/prefab/uielement/togglegroup.unity3d
+        Dependency_2: assets/res/allinone/textmesh pro/shaders/tmp_sdf-mobile.shader
+        Dependency_3: "assets/art/texture/base/\u56FE\u5C42 48.png"
+        Dependency_4: "assets/art/texture/base/\u56FE\u5C42 50.png"
+    Info_8:
+      Name: assets/res/oneinone/ui/prefab/uielement/btncommon.unity3d
+      Dependencies:
+        Dependency_0: assets/res/allinone/textmesh pro/shaders/tmp_sdf-mobile.shader
+        Dependency_1: "assets/art/texture/base/\u56FE\u5C42 58.png"
+    Info_9:
+      Name: assets/res/oneinone/ui/prefab/uielement/togglegroup.unity3d
+      Dependencies:
+        Dependency_0: assets/res/allinone/textmesh pro/shaders/tmp_sdf-mobile.shader
+        Dependency_1: "assets/art/texture/base/\u56FE\u5C42 48.png"
+        Dependency_2: "assets/art/texture/base/\u56FE\u5C42 50.png"
+    Info_10:
+      Name: assets/res/allinone/textmesh pro/shaders/tmp_sdf-mobile.shader
+      Dependencies: {}
+    Info_11:
+      Name: "assets/art/texture/base/\u56FE\u5C42 58.png"
+      Dependencies: {}
+    Info_12:
+      Name: "assets/art/texture/base/\u56FE\u5C42 48.png"
+      Dependencies: {}
+    Info_13:
+      Name: "assets/art/texture/base/\u56FE\u5C42 50.png"
+      Dependencies: {}
+    Info_14:
+      Name: assets/res/allinone/lubangen.unity3d
+      Dependencies: {}
+    Info_15:
+      Name: assets/res/allinone/textmesh pro/sprites.unity3d
+      Dependencies: {}

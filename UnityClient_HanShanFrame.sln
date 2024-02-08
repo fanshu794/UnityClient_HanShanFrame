@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlowCanvas", "FlowCanvas.csproj", "{c75d5d4e-da9f-2ceb-f4b0-582beb01986c}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{c40fb704-75a5-4d23-552e-29fc734eba77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParadoxNotion", "ParadoxNotion.csproj", "{0643982c-92d5-ea86-d58d-d3bbdd1a4a00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game", "Game.csproj", "{401cbbbf-d6ea-f57b-457c-ab36381c96d0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Luban.Runtime", "Luban.Runtime.csproj", "{0b2cb102-216e-6e88-7718-994004bd3e1a}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoopScrollRect.Runtime", "LoopScrollRect.Runtime.csproj", "{3b4e0de4-20e6-1436-67da-d1da5bc1a68f}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Luban.Editor", "Luban.Editor.csproj", "{99bef20f-d524-58e7-aad0-a7aaa1f58640}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{cb3b26ca-608a-fdc7-410f-2d5dc98adba1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoopScrollRect.Editor", "LoopScrollRect.Editor.csproj", "{56c5ae26-8fd0-cdd7-a52f-1c6a369c667f}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{d37293ec-6b46-e438-762b-1c454fd75ef9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{c75d5d4e-da9f-2ceb-f4b0-582beb01986c}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{c75d5d4e-da9f-2ceb-f4b0-582beb01986c}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{c40fb704-75a5-4d23-552e-29fc734eba77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{c40fb704-75a5-4d23-552e-29fc734eba77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0643982c-92d5-ea86-d58d-d3bbdd1a4a00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0643982c-92d5-ea86-d58d-d3bbdd1a4a00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{401cbbbf-d6ea-f57b-457c-ab36381c96d0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{401cbbbf-d6ea-f57b-457c-ab36381c96d0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0b2cb102-216e-6e88-7718-994004bd3e1a}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0b2cb102-216e-6e88-7718-994004bd3e1a}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3b4e0de4-20e6-1436-67da-d1da5bc1a68f}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3b4e0de4-20e6-1436-67da-d1da5bc1a68f}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99bef20f-d524-58e7-aad0-a7aaa1f58640}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99bef20f-d524-58e7-aad0-a7aaa1f58640}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{cb3b26ca-608a-fdc7-410f-2d5dc98adba1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{cb3b26ca-608a-fdc7-410f-2d5dc98adba1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56c5ae26-8fd0-cdd7-a52f-1c6a369c667f}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56c5ae26-8fd0-cdd7-a52f-1c6a369c667f}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{d37293ec-6b46-e438-762b-1c454fd75ef9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{d37293ec-6b46-e438-762b-1c454fd75ef9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
