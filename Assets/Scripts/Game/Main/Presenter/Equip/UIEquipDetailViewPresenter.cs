@@ -14,7 +14,7 @@ namespace Game.Main
             });
             this.AddButtonEvent("btnClose_C", delegate(GameObject arg0)
             {
-                HsClient.Mediator.UISystem.CloseCur();
+                HsClient.Mediator.UISystem.CloseSelf(this);
             });
         }
 
@@ -35,7 +35,6 @@ namespace Game.Main
 
         public override void LinkModels()
         {
-            
         }
 
         public override void OnRefreshAll()

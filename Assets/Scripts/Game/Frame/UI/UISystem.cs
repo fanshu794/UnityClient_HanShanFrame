@@ -280,7 +280,7 @@ namespace Game.Frame
             }
         }
 
-        public void CloseCur()
+        private void CloseCur()
         {
             if (_listMainPanelOperation.Count == 0)
             {
