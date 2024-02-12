@@ -57,11 +57,11 @@ namespace Game.Frame
                 _uiroot = HsClient.Mediator.GetSystem<ResourceSystem>().EditLoad<GameObject>(_uiRootPath).transform;
                 _uiroot = GameObject.Instantiate(_uiroot);
                 _uiroot.position = Vector3.zero;
-                _dicTransforms.Add(ViewType.Panel, _uiroot.Find("Canvas/MainView"));
-                _dicTransforms.Add(ViewType.Dialog, _uiroot.Find("Canvas/MainView"));
-                _dicTransforms.Add(ViewType.Message, _uiroot.Find("Canvas/MessageView"));
-                _dicTransforms.Add(ViewType.Guide, _uiroot.Find("Canvas/GuideView"));
-                _dicTransforms.Add(ViewType.System, _uiroot.Find("Canvas/SystemView"));
+                _dicTransforms.Add(ViewType.Panel, _uiroot.Find("Canvas/MainLayer"));
+                _dicTransforms.Add(ViewType.Dialog, _uiroot.Find("Canvas/MainLayer"));
+                _dicTransforms.Add(ViewType.Message, _uiroot.Find("Canvas/MessageLayer"));
+                _dicTransforms.Add(ViewType.Guide, _uiroot.Find("Canvas/GuideLayer"));
+                _dicTransforms.Add(ViewType.System, _uiroot.Find("Canvas/SystemLayer"));
             }
         }
         

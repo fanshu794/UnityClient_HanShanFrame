@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7716596857747538830}
   m_Layer: 5
-  m_Name: GuideView
+  m_Name: GuideLayer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46,7 +46,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4908768274667791810}
   m_Layer: 5
-  m_Name: SystemView
+  m_Name: SystemLayer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -82,7 +82,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6453085173664367733}
   m_Layer: 5
-  m_Name: MessageView
+  m_Name: MessageLayer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -306,7 +306,7 @@ GameObject:
   m_Component:
   - component: {fileID: 732433977009894556}
   m_Layer: 5
-  m_Name: MainView
+  m_Name: MainLayer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
