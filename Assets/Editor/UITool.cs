@@ -148,7 +148,12 @@ namespace Game.Main
 
         var curObj = stage.prefabContentsRoot;
         var presenterName = curObj.name;
-        var presenterContent = MAIN_PRESENTER_TEMP.Replace("@ClassName", presenterName);
+        if (viewType == ViewType.Subview)
+        {
+            presenterName = presenterName.Replace("Subview", "Sub") + "Presenter";
+        }
+        string presenterContent = string.Empty;
+        presenterContent = MAIN_PRESENTER_TEMP.Replace("@ClassName", presenterName);
         if (viewType == ViewType.Panel)
         {
             presenterContent = presenterContent.Replace("@BaseType", "MainViewPresenter");
@@ -158,7 +163,7 @@ namespace Game.Main
             presenterContent = presenterContent.Replace("@BaseType", "SubviewPresenter");
         }
         _savePath = EditorUtility.SaveFolderPanel("请选择保存路径", _savePath, "");
-        var savePath = Path.Combine(_savePath, $"{presenterName}Presenter.cs");
+        var savePath = Path.Combine(_savePath, $"{presenterName}.cs");
         if (!File.Exists(savePath))
         {
             File.WriteAllText(savePath, presenterContent, Encoding.UTF8);
@@ -168,39 +173,6 @@ namespace Game.Main
         else
         {
             GameLog.Error($"{presenterName}.cs 已存在");
-        }
-    }
-
-    [InitializeOnLoadMethod]
-    static void RegisterPrefabStageEvents()
-    {
-        PrefabStage.prefabStageClosing += OnClosingPrefab;
-        EditorApplication.hierarchyChanged += OnHierarchyWindowChanged;
-    }
-    
-    
-    static void OnHierarchyWindowChanged()
-    {
-        if (Selection.activeGameObject && Selection.activeGameObject.GetComponent<IgnoreChildrenNode>())
-        {
-            if (!Selection.activeGameObject.name.EndsWith("_IGO"))
-            {
-                Selection.activeGameObject.name = Selection.activeGameObject.name + "_IGO";
-            }
-        }
-    }
-
-    static void OnClosingPrefab(PrefabStage stage)
-    {
-        if (stage.prefabContentsRoot.name.Contains("Subview"))
-        {
-            if (!stage.prefabContentsRoot.GetComponent<IgnoreChildrenNode>())
-            {
-                var obj = GameObject.Instantiate(stage.prefabContentsRoot);
-                obj.AddComponent<IgnoreChildrenNode>();
-                PrefabUtility.SaveAsPrefabAsset(obj, stage.assetPath);
-                DestroyImmediate(obj);
-            }
         }
     }
 }

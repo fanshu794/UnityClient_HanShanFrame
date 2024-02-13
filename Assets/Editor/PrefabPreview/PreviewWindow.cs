@@ -1,5 +1,3 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -8,7 +6,6 @@ using Game.Frame;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.WSA;
 using Application = UnityEngine.Application;
 
 public class PrefabPreviewWindow : EditorWindow
@@ -190,7 +187,8 @@ public class PrefabPreviewWindow : EditorWindow
                         GameLog.Error("选中错误的节点");
                         return;
                     }
-                    GameObject.Instantiate(renderList[i].obj, selectObj.transform, false);
+                    var clone = (GameObject)PrefabUtility.InstantiatePrefab(renderList[i].obj, selectObj.transform);
+                    OnAddSelectObj(clone);
                 }
                 GUILayout.Box(renderList[i].shortRender, GUILayout.Width(_resolution.x * zoomInPram / 10), GUILayout.Height(_resolution.y * zoomInPram / 10));
                 GUILayout.Space(20);
@@ -238,6 +236,16 @@ public class PrefabPreviewWindow : EditorWindow
         DestroyImmediate(_objRenderCanvas);
         _objRenderCamera = null;
         _objRenderCanvas = null;
+    }
+
+    private void OnAddSelectObj(GameObject gameObject)
+    {
+        gameObject.name = gameObject.name.Replace("(Clone)", "");
+        if (gameObject.name.EndsWith("Subview"))
+        {
+            gameObject.AddComponent<IgnoreChildrenNode>();
+            gameObject.name = gameObject.name + "_IGO";
+        }
     }
 
     /// <summary>

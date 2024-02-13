@@ -342,28 +342,28 @@
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
      </Reference>
      <Reference Include="DemiLib">
-     <HintPath>D:\UnityClient\UnityClient_HanShanFrame\Assets\ThirdParty\Demigiant\DemiLib\Core\DemiLib.dll</HintPath>
+     <HintPath>D:\UnityProject\HanShanFrame_Dev\UnityClient_HanShanFrame\Assets\ThirdParty\Demigiant\DemiLib\Core\DemiLib.dll</HintPath>
      </Reference>
      <Reference Include="System.Runtime.CompilerServices.Unsafe">
-     <HintPath>D:\UnityClient\UnityClient_HanShanFrame\Assets\Plugins\Google.Protobuf\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+     <HintPath>D:\UnityProject\HanShanFrame_Dev\UnityClient_HanShanFrame\Assets\Plugins\Google.Protobuf\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
      </Reference>
      <Reference Include="DOTween">
-     <HintPath>D:\UnityClient\UnityClient_HanShanFrame\Assets\ThirdParty\Demigiant\DOTween\DOTween.dll</HintPath>
+     <HintPath>D:\UnityProject\HanShanFrame_Dev\UnityClient_HanShanFrame\Assets\ThirdParty\Demigiant\DOTween\DOTween.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-     <HintPath>D:\UnityClient\UnityClient_HanShanFrame\Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+     <HintPath>D:\UnityProject\HanShanFrame_Dev\UnityClient_HanShanFrame\Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="Google.Protobuf">
-     <HintPath>D:\UnityClient\UnityClient_HanShanFrame\Assets\Plugins\Google.Protobuf\Google.Protobuf.dll</HintPath>
+     <HintPath>D:\UnityProject\HanShanFrame_Dev\UnityClient_HanShanFrame\Assets\Plugins\Google.Protobuf\Google.Protobuf.dll</HintPath>
      </Reference>
      <Reference Include="ReportGeneratorMerged">
-     <HintPath>D:\UnityClient\UnityClient_HanShanFrame\Library\PackageCache\com.unity.testtools.codecoverage@1.0.1\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+     <HintPath>D:\UnityProject\HanShanFrame_Dev\UnityClient_HanShanFrame\Library\PackageCache\com.unity.testtools.codecoverage@1.0.1\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
      </Reference>
      <Reference Include="Newtonsoft.Json">
-     <HintPath>D:\UnityClient\UnityClient_HanShanFrame\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
+     <HintPath>D:\UnityProject\HanShanFrame_Dev\UnityClient_HanShanFrame\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
      </Reference>
      <Reference Include="DOTweenPro">
-     <HintPath>D:\UnityClient\UnityClient_HanShanFrame\Assets\ThirdParty\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
+     <HintPath>D:\UnityProject\HanShanFrame_Dev\UnityClient_HanShanFrame\Assets\ThirdParty\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Android.Types">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
@@ -738,82 +738,82 @@
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Flow.Editor">
-     <HintPath>D:\UnityClient\UnityClient_HanShanFrame\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+     <HintPath>D:\UnityProject\HanShanFrame_Dev\UnityClient_HanShanFrame\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VSCode.Editor">
-     <HintPath>D:\UnityClient\UnityClient_HanShanFrame\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+     <HintPath>D:\UnityProject\HanShanFrame_Dev\UnityClient_HanShanFrame\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TextMeshPro.Editor">
-     <HintPath>D:\UnityClient\UnityClient_HanShanFrame\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+     <HintPath>D:\UnityProject\HanShanFrame_Dev\UnityClient_HanShanFrame\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
-     <HintPath>D:\UnityClient\UnityClient_HanShanFrame\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
+     <HintPath>D:\UnityProject\HanShanFrame_Dev\UnityClient_HanShanFrame\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
-     <HintPath>D:\UnityClient\UnityClient_HanShanFrame\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
+     <HintPath>D:\UnityProject\HanShanFrame_Dev\UnityClient_HanShanFrame\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualStudio.Editor">
-     <HintPath>D:\UnityClient\UnityClient_HanShanFrame\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+     <HintPath>D:\UnityProject\HanShanFrame_Dev\UnityClient_HanShanFrame\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Timeline">
-     <HintPath>D:\UnityClient\UnityClient_HanShanFrame\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+     <HintPath>D:\UnityProject\HanShanFrame_Dev\UnityClient_HanShanFrame\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Core.Editor">
-     <HintPath>D:\UnityClient\UnityClient_HanShanFrame\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+     <HintPath>D:\UnityProject\HanShanFrame_Dev\UnityClient_HanShanFrame\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TextMeshPro">
-     <HintPath>D:\UnityClient\UnityClient_HanShanFrame\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+     <HintPath>D:\UnityProject\HanShanFrame_Dev\UnityClient_HanShanFrame\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.State.Editor">
-     <HintPath>D:\UnityClient\UnityClient_HanShanFrame\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+     <HintPath>D:\UnityProject\HanShanFrame_Dev\UnityClient_HanShanFrame\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-     <HintPath>D:\UnityClient\UnityClient_HanShanFrame\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+     <HintPath>D:\UnityProject\HanShanFrame_Dev\UnityClient_HanShanFrame\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
-     <HintPath>D:\UnityClient\UnityClient_HanShanFrame\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
+     <HintPath>D:\UnityProject\HanShanFrame_Dev\UnityClient_HanShanFrame\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Flow">
-     <HintPath>D:\UnityClient\UnityClient_HanShanFrame\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+     <HintPath>D:\UnityProject\HanShanFrame_Dev\UnityClient_HanShanFrame\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.UI">
-     <HintPath>D:\UnityClient\UnityClient_HanShanFrame\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+     <HintPath>D:\UnityProject\HanShanFrame_Dev\UnityClient_HanShanFrame\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
      </Reference>
      <Reference Include="Unity.PlasticSCM.Editor">
-     <HintPath>D:\UnityClient\UnityClient_HanShanFrame\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+     <HintPath>D:\UnityProject\HanShanFrame_Dev\UnityClient_HanShanFrame\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Rider.Editor">
-     <HintPath>D:\UnityClient\UnityClient_HanShanFrame\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+     <HintPath>D:\UnityProject\HanShanFrame_Dev\UnityClient_HanShanFrame\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UI">
-     <HintPath>D:\UnityClient\UnityClient_HanShanFrame\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+     <HintPath>D:\UnityProject\HanShanFrame_Dev\UnityClient_HanShanFrame\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Services.Core">
-     <HintPath>D:\UnityClient\UnityClient_HanShanFrame\Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
+     <HintPath>D:\UnityProject\HanShanFrame_Dev\UnityClient_HanShanFrame\Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Core">
-     <HintPath>D:\UnityClient\UnityClient_HanShanFrame\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+     <HintPath>D:\UnityProject\HanShanFrame_Dev\UnityClient_HanShanFrame\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
      </Reference>
      <Reference Include="Unity.EditorCoroutines.Editor">
-     <HintPath>D:\UnityClient\UnityClient_HanShanFrame\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
+     <HintPath>D:\UnityProject\HanShanFrame_Dev\UnityClient_HanShanFrame\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Services.Core.Analytics">
-     <HintPath>D:\UnityClient\UnityClient_HanShanFrame\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
+     <HintPath>D:\UnityProject\HanShanFrame_Dev\UnityClient_HanShanFrame\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Shared.Editor">
-     <HintPath>D:\UnityClient\UnityClient_HanShanFrame\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+     <HintPath>D:\UnityProject\HanShanFrame_Dev\UnityClient_HanShanFrame\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Services.Core.Environments">
-     <HintPath>D:\UnityClient\UnityClient_HanShanFrame\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll</HintPath>
+     <HintPath>D:\UnityProject\HanShanFrame_Dev\UnityClient_HanShanFrame\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Timeline.Editor">
-     <HintPath>D:\UnityClient\UnityClient_HanShanFrame\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+     <HintPath>D:\UnityProject\HanShanFrame_Dev\UnityClient_HanShanFrame\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TestTools.CodeCoverage.Editor">
-     <HintPath>D:\UnityClient\UnityClient_HanShanFrame\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+     <HintPath>D:\UnityProject\HanShanFrame_Dev\UnityClient_HanShanFrame\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.State">
-     <HintPath>D:\UnityClient\UnityClient_HanShanFrame\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+     <HintPath>D:\UnityProject\HanShanFrame_Dev\UnityClient_HanShanFrame\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>

@@ -20,7 +20,7 @@ namespace Game.Main
         }
 
         public override void RegisterEvent()
-        {
+        {   
 
         }
 
