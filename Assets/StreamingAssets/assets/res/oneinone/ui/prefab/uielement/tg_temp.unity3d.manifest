@@ -1,0 +1,89 @@
+ManifestFileVersion: 0
+CRC: 1369955293
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 249ff13ad8abd45f90bd15c039411292
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ce44e31ca0e88fcc4a57326f6bfd9676
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: ff9ec492a07c430bb8f3d15c222be19d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a66c21d8eed647958ca469e1879822f7, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 25ecd26740584c56aabb342d80349ad1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1d9a78ca3ad745a9b9289c6b3ec68477, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e9876436822340889a2c58a54e129a08, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Game
+  ClassName: Game.Main.ToggleData
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.FaceInfo_Legacy
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.FontAssetCreationSettings
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.KerningTable
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_Character
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_FontFeatureTable
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_FontWeightPair
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_GlyphAdjustmentRecord
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_GlyphPairAdjustmentRecord
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_GlyphValueRecord
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.VertexGradient
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentCallGroup
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.RectOffset
+- AssemblyName: UnityEngine.TextCoreFontEngineModule
+  ClassName: UnityEngine.TextCore.FaceInfo
+- AssemblyName: UnityEngine.TextCoreFontEngineModule
+  ClassName: UnityEngine.TextCore.Glyph
+- AssemblyName: UnityEngine.TextCoreFontEngineModule
+  ClassName: UnityEngine.TextCore.GlyphMetrics
+- AssemblyName: UnityEngine.TextCoreFontEngineModule
+  ClassName: UnityEngine.TextCore.GlyphRect
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+Assets:
+- Assets/Res/OneInOne/UI/Prefab/UIElement/tg_temp.prefab
+Dependencies:
+- "D:/UnityProject/HanShanFrame_Dev/UnityClient_HanShanFrame/Assets/StreamingAssets/assets/art/texture/base/\u56FE\u5C42
+  48.png"
+- "D:/UnityProject/HanShanFrame_Dev/UnityClient_HanShanFrame/Assets/StreamingAssets/assets/art/texture/base/\u56FE\u5C42
+  50.png"
+- D:/UnityProject/HanShanFrame_Dev/UnityClient_HanShanFrame/Assets/StreamingAssets/assets/res/allinone/textmesh
+  pro/shaders/tmp_sdf-mobile.shader

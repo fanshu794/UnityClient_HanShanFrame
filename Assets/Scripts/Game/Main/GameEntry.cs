@@ -9,8 +9,11 @@ using UnityEngine;
 
 public class GameEntry : MonoBehaviour
 {
+    [SerializeField] private ResourceSystem.LoadType _loadType = ResourceSystem.LoadType.Editor;
+    
     private void Start()
     {
+        Enviroment.SetLoadType(_loadType);
         DontDestroyOnLoad(this);
         HsClient.CreateInstance();
        // GetComponent<FlowScriptController>().StartBehaviour();

@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 1713474812
+CRC: 134843823
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -12,55 +12,59 @@ AssetBundleManifest:
       Name: assets/res/oneinone/22/gameobject1.unity3d
       Dependencies: {}
     Info_3:
-      Name: assets/res/oneinone/ui/prefab/subview_test1.unity3d
-      Dependencies: {}
+      Name: assets/res/oneinone/ui/prefab/equip/uiequipchoiseview.unity3d
+      Dependencies:
+        Dependency_0: assets/res/oneinone/ui/prefab/uielement/btn_temp.unity3d
+        Dependency_1: assets/res/allinone/textmesh pro/shaders/tmp_sdf-mobile.shader
     Info_4:
-      Name: assets/res/oneinone/ui/prefab/subview_test2.unity3d
-      Dependencies: {}
+      Name: assets/res/oneinone/ui/prefab/equip/uiequipdetailview.unity3d
+      Dependencies:
+        Dependency_0: assets/res/oneinone/ui/prefab/uielement/btn_temp.unity3d
+        Dependency_1: assets/res/allinone/textmesh pro/shaders/tmp_sdf-mobile.shader
     Info_5:
-      Name: assets/res/oneinone/ui/prefab/uiequipchoiseview.unity3d
-      Dependencies:
-        Dependency_0: assets/res/oneinone/ui/prefab/uielement/btncommon.unity3d
-        Dependency_1: assets/res/allinone/textmesh pro/shaders/tmp_sdf-mobile.shader
+      Name: assets/res/oneinone/ui/prefab/equip/uitestsubview.unity3d
+      Dependencies: {}
     Info_6:
-      Name: assets/res/oneinone/ui/prefab/uiequipdetailview.unity3d
+      Name: assets/res/oneinone/ui/prefab/hero/uiheroview.unity3d
       Dependencies:
-        Dependency_0: assets/res/oneinone/ui/prefab/uielement/btncommon.unity3d
-        Dependency_1: assets/res/allinone/textmesh pro/shaders/tmp_sdf-mobile.shader
+        Dependency_0: assets/res/oneinone/ui/prefab/equip/uitestsubview.unity3d
+        Dependency_1: assets/res/oneinone/ui/prefab/uielement/btn_temp.unity3d
+        Dependency_2: assets/res/oneinone/ui/prefab/uielement/tg_temp.unity3d
+        Dependency_3: assets/res/allinone/textmesh pro/shaders/tmp_sdf-mobile.shader
+        Dependency_4: "assets/art/texture/base/\u56FE\u5C42 48.png"
+        Dependency_5: "assets/art/texture/base/\u56FE\u5C42 50.png"
     Info_7:
-      Name: assets/res/oneinone/ui/prefab/uiheroview.unity3d
-      Dependencies:
-        Dependency_0: assets/res/oneinone/ui/prefab/uielement/btncommon.unity3d
-        Dependency_1: assets/res/oneinone/ui/prefab/uielement/togglegroup.unity3d
-        Dependency_2: assets/res/allinone/textmesh pro/shaders/tmp_sdf-mobile.shader
-        Dependency_3: "assets/art/texture/base/\u56FE\u5C42 48.png"
-        Dependency_4: "assets/art/texture/base/\u56FE\u5C42 50.png"
-    Info_8:
-      Name: assets/res/oneinone/ui/prefab/uielement/btncommon.unity3d
+      Name: assets/res/oneinone/ui/prefab/uielement/btn_temp.unity3d
       Dependencies:
         Dependency_0: assets/res/allinone/textmesh pro/shaders/tmp_sdf-mobile.shader
         Dependency_1: "assets/art/texture/base/\u56FE\u5C42 58.png"
+    Info_8:
+      Name: assets/res/oneinone/ui/prefab/uielement/img_temp.unity3d
+      Dependencies: {}
     Info_9:
-      Name: assets/res/oneinone/ui/prefab/uielement/togglegroup.unity3d
+      Name: assets/res/oneinone/ui/prefab/uielement/tg_temp.unity3d
       Dependencies:
         Dependency_0: assets/res/allinone/textmesh pro/shaders/tmp_sdf-mobile.shader
         Dependency_1: "assets/art/texture/base/\u56FE\u5C42 48.png"
         Dependency_2: "assets/art/texture/base/\u56FE\u5C42 50.png"
     Info_10:
-      Name: assets/res/allinone/textmesh pro/shaders/tmp_sdf-mobile.shader
+      Name: assets/res/oneinone/ui/prefab/uielement/vs_temp.unity3d
       Dependencies: {}
     Info_11:
-      Name: "assets/art/texture/base/\u56FE\u5C42 58.png"
+      Name: assets/res/allinone/textmesh pro/shaders/tmp_sdf-mobile.shader
       Dependencies: {}
     Info_12:
-      Name: "assets/art/texture/base/\u56FE\u5C42 48.png"
+      Name: "assets/art/texture/base/\u56FE\u5C42 58.png"
       Dependencies: {}
     Info_13:
-      Name: "assets/art/texture/base/\u56FE\u5C42 50.png"
+      Name: "assets/art/texture/base/\u56FE\u5C42 48.png"
       Dependencies: {}
     Info_14:
-      Name: assets/res/allinone/lubangen.unity3d
+      Name: "assets/art/texture/base/\u56FE\u5C42 50.png"
       Dependencies: {}
     Info_15:
+      Name: assets/res/allinone/lubangen.unity3d
+      Dependencies: {}
+    Info_16:
       Name: assets/res/allinone/textmesh pro/sprites.unity3d
       Dependencies: {}

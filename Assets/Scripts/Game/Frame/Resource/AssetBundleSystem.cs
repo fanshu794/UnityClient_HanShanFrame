@@ -39,7 +39,6 @@ namespace Game.Frame
             InitDependConfig();
         }
         
-        //初始化依赖项，参考其他博客，这一步大同小异
         private void InitDependConfig()
         {
             mDicDependConfig.Clear();

@@ -41,19 +41,19 @@ namespace Game.Main.Config
             {
                 uiID = (int)UIID.HeroView,
                 viewType = ViewType.Panel,
-                path = "Assets/Res/OneInOne/UI/Prefab/UIHeroView.prefab",
+                path = "Assets/Res/OneInOne/UI/Prefab/Hero/UIHeroView.prefab",
             },
             [UIID.EquipChoise] = new UIConfig()
             {
                 uiID = (int)UIID.EquipChoise,
                 viewType = ViewType.Panel,
-                path = "Assets/Res/OneInOne/UI/Prefab/UIEquipChoiseView.prefab",
+                path = "Assets/Res/OneInOne/UI/Prefab/Equip/UIEquipChoiseView.prefab",
             },
             [UIID.EquipDetail] = new UIConfig()
             {
                 uiID = (int)UIID.EquipDetail,
                 viewType = ViewType.Dialog,
-                path = "Assets/Res/OneInOne/UI/Prefab/UIEquipDetailView.prefab",
+                path = "Assets/Res/OneInOne/UI/Prefab/Equip/UIEquipDetailView.prefab",
             }
         };
     }

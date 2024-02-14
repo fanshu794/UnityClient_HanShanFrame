@@ -1,0 +1,39 @@
+ManifestFileVersion: 0
+CRC: 3965049627
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 37c2399fa626bfcb82e09dd7b9d09376
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 93f6a09ebf33bb7b9afe9dab6dcdefaf
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5561bb9d728b4eb89ecb71f05b25719a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3312d7739989d2b4e91e6319e9a96d76, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ce71017a2903f7c4c9a699e438d0b897, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: LoopScrollRect.Runtime
+  ClassName: UnityEngine.UI.LoopScrollRectBase/ScrollRectEvent
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentCallGroup
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.RectOffset
+Assets:
+- Assets/Res/OneInOne/UI/Prefab/UIElement/vs_temp.prefab
+Dependencies: []

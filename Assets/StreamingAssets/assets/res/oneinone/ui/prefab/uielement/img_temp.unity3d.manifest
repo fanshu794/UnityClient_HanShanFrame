@@ -1,0 +1,29 @@
+ManifestFileVersion: 0
+CRC: 952204084
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5b4a4f92248398edc1e327f5273c4ca7
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 902f01fc30e2ff9ec58190212b08762f
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: ff9ec492a07c430bb8f3d15c222be19d, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentCallGroup
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+Assets:
+- Assets/Res/OneInOne/UI/Prefab/UIElement/img_temp.prefab
+Dependencies: []

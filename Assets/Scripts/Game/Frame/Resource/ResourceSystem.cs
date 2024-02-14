@@ -7,6 +7,12 @@ namespace Game.Frame
 {
     public class ResourceSystem : BaseSystem 
     {
+        public enum LoadType
+        {
+            Editor,
+            AssetBundle
+        }
+        
         private BaseLoadStrategy _loadStrategy = null;
         
         public BaseLoadStrategy LoadStrategy => _loadStrategy;
@@ -14,10 +20,20 @@ namespace Game.Frame
 
         public ResourceSystem()
         {
-            if (true)
+#if UNITY_EDITOR
+            if (Enviroment.GetLoadType() == LoadType.AssetBundle)
             {
                 _loadStrategy = new AssetBundleLoadStrategy();
             }
+            else
+            {
+                
+                _loadStrategy = new EditorLoadStrategy();
+            }
+#else
+            _loadStrategy = new AssetBundleLoadStrategy();
+#endif
+            
         }
         
         public LoaderHandler<T> LoadSync<T>(string path) where T : UnityEngine.Object
