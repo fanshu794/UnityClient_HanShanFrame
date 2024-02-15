@@ -236,9 +236,13 @@ namespace Game.Frame
             if (mDicReadyToLoadBundleEntities.TryGetValue(bundleName, out bundleEntity))
             {
                 mDicReadyToLoadBundleEntities.Remove(bundleName);
+                //为啥加入到正在加载队列？可以看Update里的备注
+                mDicLoadingBundleEntities.Add(bundleName, bundleEntity);
+                //合规，只要mDicLoadingBundleEntities里有的，mDicAsyncBundleCreateRequests一定要有
+                //Update里不会用到这个异步转同步的request所以加入默认值占位子
+                mDicAsyncBundleCreateRequests.Add(bundleName, default);
                 bundleEntity.SetAssetBundle(AssetBundle.LoadFromFile(GetPath(bundleName)));
                 HsClient.EventDispatch.TriggerEvent<BundleEntity>((int)GameEventEnum.OnBundleLoaded, bundleEntity);
-                bundleEntity.DoCallback();
             }
             else
             {
@@ -380,14 +384,22 @@ namespace Game.Frame
             mCacheRemoveList.Clear();
             foreach (var keyVal in mDicLoadingBundleEntities)
             {
-                //如果完成加载
-                if (mDicAsyncBundleCreateRequests[keyVal.Key].isDone)
+                if (keyVal.Value.AbBundle == null)
+                {
+                    //如果完成加载
+                    if (mDicAsyncBundleCreateRequests[keyVal.Key].isDone)
+                    {
+                        mCacheRemoveList.Add(keyVal.Key);
+                        var bundle = mDicAsyncBundleCreateRequests[keyVal.Key].assetBundle;
+                        keyVal.Value.SetAssetBundle(bundle);
+                        //通知依赖此bundle的父bundle
+                        HsClient.EventDispatch.TriggerEvent<BundleEntity>((int)GameEventEnum.OnBundleLoaded, keyVal.Value);
+                        keyVal.Value.DoCallback();
+                    }
+                }
+                else //为啥会有这种情况？ 异步转同步的时候就会出现
                 {
                     mCacheRemoveList.Add(keyVal.Key);
-                    var bundle = mDicAsyncBundleCreateRequests[keyVal.Key].assetBundle;
-                    keyVal.Value.SetAssetBundle(bundle);
-                    //通知依赖此bundle的父bundle
-                    HsClient.EventDispatch.TriggerEvent<BundleEntity>((int)GameEventEnum.OnBundleLoaded, keyVal.Value);
                     keyVal.Value.DoCallback();
                 }
             }
@@ -396,7 +408,7 @@ namespace Game.Frame
             {
                 mDicLoadingBundleEntities.Remove(bundleName, out var entity);
                 mDicAsyncBundleCreateRequests.Remove(bundleName);
-                mDicLoadedBundleEntities.Add(bundleName, entity);                
+                mDicLoadedBundleEntities.TryAdd(bundleName, entity);                
             }
             
             mCacheRemoveList.Clear();
