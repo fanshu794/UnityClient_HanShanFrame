@@ -210,6 +210,9 @@ namespace Game.Frame
                     //通知依赖此bundle的父bundle
                     HsClient.EventDispatch.TriggerEvent<BundleEntity>((int)GameEventEnum.OnBundleLoaded, bundleEntity);
                     mDicLoadedBundleEntities.Add(bundleName, bundleEntity);
+                    mDicAsyncBundleCreateRequests.Remove(bundleName);
+                    mDicLoadingBundleEntities.Remove(bundleName);
+                    bundleEntity.DoCallback();
                     return bundleEntity;
                 }
                 else
@@ -264,6 +267,7 @@ namespace Game.Frame
             {
                 RecursionAddRef(bundleName);
                 bundleEntity.AddLoadCallback(callback);
+                bundleEntity.DoCallback();
                 return;
             }
             //如果当前正在处于待销毁队列，移除队列
@@ -404,7 +408,7 @@ namespace Game.Frame
             {
                 mDicLoadingBundleEntities.Remove(bundleName, out var entity);
                 mDicAsyncBundleCreateRequests.Remove(bundleName);
-                mDicLoadedBundleEntities.Add(bundleName, entity);                
+                mDicLoadedBundleEntities.TryAdd(bundleName, entity);                
             }
             
             mCacheRemoveList.Clear();
