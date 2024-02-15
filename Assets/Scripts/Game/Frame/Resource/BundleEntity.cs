@@ -18,10 +18,11 @@ namespace Game.Frame
         public int RefCount => mRefCount; //引用计数
         public AssetBundle AbBundle => mAbBundle;
 
-        public BundleEntity(string assetName, string[] dependArray)
+        public BundleEntity(string assetName, string[] dependArray, int curLoadedCount)
         {
             _bundleName = assetName;
             mDependArray = dependArray;
+            mDependCompletedCount = curLoadedCount;
         }
 
         public override void RegisterEvent()
@@ -38,8 +39,7 @@ namespace Game.Frame
         {
             for (int i = 0; i < mDependArray.Length; i++)
             {
-                var entity = bundleEntity as BundleEntity;
-                if (entity._bundleName == mDependArray[i]) //如果自己的依赖项完成加载
+                if (bundleEntity._bundleName == mDependArray[i]) //如果自己的依赖项完成加载
                 {
                     mDependCompletedCount++;
                 }
@@ -47,7 +47,7 @@ namespace Game.Frame
 
             if (mDependCompletedCount == mDependArray.Length)
             {
-                FrameworkEventHandler.Event.RemoveEvent<BundleEntity>((int)HS_Framework_EventType.OnBundleLoaded, OnBundleLoaded);
+                HsClient.EventDispatch.RemoveEvent<BundleEntity>((int)GameEventEnum.OnBundleLoaded, OnBundleLoaded);
             }
         }
 
@@ -72,7 +72,7 @@ namespace Game.Frame
             {
                 mAbBundle.Unload(true);
             }
-            FrameworkEventHandler.Event.RemoveEvent<BundleEntity>((int)HS_Framework_EventType.OnBundleLoaded, OnBundleLoaded);
+            HsClient.EventDispatch.RemoveEvent<BundleEntity>((int)GameEventEnum.OnBundleLoaded, OnBundleLoaded);
         }
         
         public void ForthDispose()
@@ -83,7 +83,7 @@ namespace Game.Frame
             }
 
             mRefCount = 0;
-            FrameworkEventHandler.Event.RemoveEvent<BundleEntity>((int)HS_Framework_EventType.OnBundleLoaded, OnBundleLoaded);
+            HsClient.EventDispatch.RemoveEvent<BundleEntity>((int)GameEventEnum.OnBundleLoaded, OnBundleLoaded);
         }
 
         public void SetAssetBundle(AssetBundle assetBundle)

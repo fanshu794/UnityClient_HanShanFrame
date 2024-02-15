@@ -164,6 +164,20 @@ namespace Game.Frame
             }
         }
 
+        private int GetCurLoadedDependCount(string[] pathArray)
+        {
+            int curLoadedCount = 0;
+            foreach (var path in pathArray)
+            {
+                if (mDicLoadedBundleEntities.ContainsKey(path))
+                {
+                    curLoadedCount++;
+                }
+            }
+
+            return curLoadedCount;
+        }
+
         //同步加载bundle
         public BundleEntity LoadBundleEntitySync(string bundleName)
         {
@@ -194,7 +208,7 @@ namespace Game.Frame
                     RecursionAddRef(bundleName);
                     bundleEntity.SetAssetBundle(request.assetBundle);
                     //通知依赖此bundle的父bundle
-                    HsClient.EventDispatch.TriggerEvent((int)GameEventEnum.OnBundleLoaded, bundleEntity);
+                    HsClient.EventDispatch.TriggerEvent<BundleEntity>((int)GameEventEnum.OnBundleLoaded, bundleEntity);
                     mDicLoadedBundleEntities.Add(bundleName, bundleEntity);
                     return bundleEntity;
                 }
@@ -225,12 +239,12 @@ namespace Game.Frame
                 //Update里不会用到这个异步转同步的request所以加入默认值占位子
                 mDicAsyncBundleCreateRequests.Add(bundleName, default);
                 bundleEntity.SetAssetBundle(AssetBundle.LoadFromFile(GetPath(bundleName)));
-                HsClient.EventDispatch.TriggerEvent((int)GameEventEnum.OnBundleLoaded, bundleEntity);
+                HsClient.EventDispatch.TriggerEvent<BundleEntity>((int)GameEventEnum.OnBundleLoaded, bundleEntity);
             }
             else
             {
                 //创建一个新的
-                bundleEntity = new BundleEntity(bundleName, pathArray);
+                bundleEntity = new BundleEntity(bundleName, pathArray, GetCurLoadedDependCount(pathArray));
                 bundleEntity.SetAssetBundle(AssetBundle.LoadFromFile(GetPath(bundleName)));
             }
             bundleEntity.AddRefCount();
@@ -258,6 +272,7 @@ namespace Game.Frame
                 RecursionAddRef(bundleName);
                 RecursionRemoveFromDestroy(bundleName);
                 bundleEntity.AddLoadCallback(callback);
+                bundleEntity.DoCallback();
                 return;
             }
             //如果当前正在异步加载的队列中
@@ -290,7 +305,7 @@ namespace Game.Frame
             {
                 bHasDep = false;
             }
-            bundleEntity = new BundleEntity(bundleName, pathArray);
+            bundleEntity = new BundleEntity(bundleName, pathArray, GetCurLoadedDependCount(pathArray));
             bundleEntity.RegisterEvent();
             bundleEntity.AddRefCount();
             bundleEntity.AddLoadCallback(callback);
@@ -374,7 +389,7 @@ namespace Game.Frame
                         var bundle = mDicAsyncBundleCreateRequests[keyVal.Key].assetBundle;
                         keyVal.Value.SetAssetBundle(bundle);
                         //通知依赖此bundle的父bundle
-                        HsClient.EventDispatch.TriggerEvent((int)GameEventEnum.OnBundleLoaded, keyVal.Value);
+                        HsClient.EventDispatch.TriggerEvent<BundleEntity>((int)GameEventEnum.OnBundleLoaded, keyVal.Value);
                         keyVal.Value.DoCallback();
                     }
                 }
@@ -387,8 +402,9 @@ namespace Game.Frame
             //从正在加载队列移除
             foreach (var bundleName in mCacheRemoveList)
             {
-                mDicLoadingBundleEntities.Remove(bundleName);
+                mDicLoadingBundleEntities.Remove(bundleName, out var entity);
                 mDicAsyncBundleCreateRequests.Remove(bundleName);
+                mDicLoadedBundleEntities.Add(bundleName, entity);                
             }
             
             mCacheRemoveList.Clear();

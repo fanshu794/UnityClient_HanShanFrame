@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 855517689
+CRC: 3191853629
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 734000e7fa967dc42b8f38cfafa60daf
+    Hash: d61927799bbcff6d283428476ab3a538
   TypeTreeHash:
     serializedVersion: 2
     Hash: 610d2a9d54e19e9db7755f82a5270a59
@@ -79,6 +79,8 @@ SerializeReferenceClassIdentifiers:
 Assets:
 - Assets/Res/OneInOne/UI/Prefab/Equip/UIEquipDetailView.prefab
 Dependencies:
+- "D:/UnityProject/HanShanFrame_Dev/UnityClient_HanShanFrame/Assets/StreamingAssets/assets/art/texture/base/\u56FE\u5C42
+  60.png"
 - D:/UnityProject/HanShanFrame_Dev/UnityClient_HanShanFrame/Assets/StreamingAssets/assets/res/allinone/textmesh
   pro/shaders/tmp_sdf-mobile.shader
 - D:/UnityProject/HanShanFrame_Dev/UnityClient_HanShanFrame/Assets/StreamingAssets/assets/res/oneinone/ui/prefab/uielement/btn_temp.unity3d

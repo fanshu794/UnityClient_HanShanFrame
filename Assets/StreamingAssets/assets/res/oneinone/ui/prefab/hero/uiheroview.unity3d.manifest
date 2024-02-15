@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 799763116
+CRC: 2517646739
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: cddb63eb0babfa7e9505a05dadf27659
+    Hash: 2dcf2e1657cdb8cad5aca421d46734f3
   TypeTreeHash:
     serializedVersion: 2
     Hash: efa689778db5eed31937c77376736088
@@ -91,6 +91,8 @@ Dependencies:
   48.png"
 - "D:/UnityProject/HanShanFrame_Dev/UnityClient_HanShanFrame/Assets/StreamingAssets/assets/art/texture/base/\u56FE\u5C42
   50.png"
+- "D:/UnityProject/HanShanFrame_Dev/UnityClient_HanShanFrame/Assets/StreamingAssets/assets/art/texture/base/\u56FE\u5C42
+  60.png"
 - D:/UnityProject/HanShanFrame_Dev/UnityClient_HanShanFrame/Assets/StreamingAssets/assets/res/allinone/textmesh
   pro/shaders/tmp_sdf-mobile.shader
 - D:/UnityProject/HanShanFrame_Dev/UnityClient_HanShanFrame/Assets/StreamingAssets/assets/res/oneinone/ui/prefab/equip/uitestsubview.unity3d

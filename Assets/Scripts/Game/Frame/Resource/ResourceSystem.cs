@@ -35,7 +35,12 @@ namespace Game.Frame
 #endif
             
         }
-        
+
+        public override string ToString()
+        {
+            return _loadStrategy.ToString();
+        }
+
         public LoaderHandler<T> LoadSync<T>(string path) where T : UnityEngine.Object
         {
             return _loadStrategy.LoadSync<T>(path);

@@ -1,17 +1,18 @@
-/StreamingAssets,AB-3B-C4-88-FF-21-8A-36-78-6B-27-2B-79-C6-61-42
+/StreamingAssets,40-72-E2-3D-A8-CC-93-EB-68-32-42-48-28-70-E6-7B
 /assets/art/texture/base/图层 48.png,38-6F-B9-AB-4A-B1-6E-70-9F-EC-CD-E0-08-26-DB-5B
 /assets/art/texture/base/图层 50.png,A4-D8-7E-0D-77-98-80-77-AD-7F-55-D5-94-77-89-CA
 /assets/art/texture/base/图层 58.png,63-AA-46-B5-39-A8-E7-2A-B5-A7-21-89-89-17-F9-94
+/assets/art/texture/base/图层 60.png,8A-DD-C3-30-28-BE-20-ED-BE-97-09-48-44-64-41-6C
 /assets/res/allinone/11.unity3d,81-AB-3C-29-F0-2A-19-F9-83-C3-E1-6B-60-61-19-1B
 /assets/res/allinone/lubangen.unity3d,C8-38-57-B5-0A-B2-8C-AF-AE-84-F1-E3-60-5E-37-9C
 /assets/res/allinone/textmesh pro/sprites.unity3d,11-E8-B1-7A-2E-04-94-E3-5C-65-E6-27-6E-EB-86-AA
 /assets/res/allinone/textmesh pro/shaders/tmp_sdf-mobile.shader,85-06-53-22-38-90-08-4E-66-2B-BE-3A-43-91-AC-DF
 /assets/res/oneinone/22/gameobjec2.unity3d,16-DF-10-4B-F8-0E-4A-C0-2C-B8-B4-AB-A8-2F-45-83
 /assets/res/oneinone/22/gameobject1.unity3d,B1-14-F3-A3-06-6B-85-E9-23-FC-20-73-36-AF-15-7A
-/assets/res/oneinone/ui/prefab/equip/uiequipchoiseview.unity3d,6D-F8-BF-CF-13-F3-1F-7F-DE-30-DB-AD-81-39-20-56
-/assets/res/oneinone/ui/prefab/equip/uiequipdetailview.unity3d,50-58-64-79-2E-B1-D8-3E-E1-CD-53-4C-B3-DC-10-94
+/assets/res/oneinone/ui/prefab/equip/uiequipchoiseview.unity3d,1B-30-B6-A3-66-5C-EA-77-50-F8-82-66-F2-8A-EF-32
+/assets/res/oneinone/ui/prefab/equip/uiequipdetailview.unity3d,3E-38-0D-9D-E9-36-FB-E2-BF-DC-51-25-2D-3A-6F-57
 /assets/res/oneinone/ui/prefab/equip/uitestsubview.unity3d,BE-7B-06-97-82-5C-8F-00-33-30-16-A5-4A-B2-DB-77
-/assets/res/oneinone/ui/prefab/hero/uiheroview.unity3d,2E-8C-62-F4-B0-1C-15-3E-3B-7C-9C-E9-23-DE-1D-C4
+/assets/res/oneinone/ui/prefab/hero/uiheroview.unity3d,A1-2C-5F-ED-CE-C0-55-A4-33-66-E4-75-9C-5A-37-4D
 /assets/res/oneinone/ui/prefab/uielement/btn_temp.unity3d,D4-3C-FB-07-FF-07-D4-BF-CE-A7-A9-F0-C0-D5-BB-27
 /assets/res/oneinone/ui/prefab/uielement/img_temp.unity3d,F5-B6-61-A0-83-68-19-61-D7-A9-A4-4B-F3-C0-F5-6D
 /assets/res/oneinone/ui/prefab/uielement/tg_temp.unity3d,A1-55-37-44-0A-6E-E9-AE-AF-09-7C-32-99-73-31-29

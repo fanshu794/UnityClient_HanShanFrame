@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 134843823
+CRC: 347612430
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -15,12 +15,14 @@ AssetBundleManifest:
       Name: assets/res/oneinone/ui/prefab/equip/uiequipchoiseview.unity3d
       Dependencies:
         Dependency_0: assets/res/oneinone/ui/prefab/uielement/btn_temp.unity3d
-        Dependency_1: assets/res/allinone/textmesh pro/shaders/tmp_sdf-mobile.shader
+        Dependency_1: "assets/art/texture/base/\u56FE\u5C42 60.png"
+        Dependency_2: assets/res/allinone/textmesh pro/shaders/tmp_sdf-mobile.shader
     Info_4:
       Name: assets/res/oneinone/ui/prefab/equip/uiequipdetailview.unity3d
       Dependencies:
         Dependency_0: assets/res/oneinone/ui/prefab/uielement/btn_temp.unity3d
-        Dependency_1: assets/res/allinone/textmesh pro/shaders/tmp_sdf-mobile.shader
+        Dependency_1: "assets/art/texture/base/\u56FE\u5C42 60.png"
+        Dependency_2: assets/res/allinone/textmesh pro/shaders/tmp_sdf-mobile.shader
     Info_5:
       Name: assets/res/oneinone/ui/prefab/equip/uitestsubview.unity3d
       Dependencies: {}
@@ -30,9 +32,10 @@ AssetBundleManifest:
         Dependency_0: assets/res/oneinone/ui/prefab/equip/uitestsubview.unity3d
         Dependency_1: assets/res/oneinone/ui/prefab/uielement/btn_temp.unity3d
         Dependency_2: assets/res/oneinone/ui/prefab/uielement/tg_temp.unity3d
-        Dependency_3: assets/res/allinone/textmesh pro/shaders/tmp_sdf-mobile.shader
-        Dependency_4: "assets/art/texture/base/\u56FE\u5C42 48.png"
-        Dependency_5: "assets/art/texture/base/\u56FE\u5C42 50.png"
+        Dependency_3: "assets/art/texture/base/\u56FE\u5C42 60.png"
+        Dependency_4: assets/res/allinone/textmesh pro/shaders/tmp_sdf-mobile.shader
+        Dependency_5: "assets/art/texture/base/\u56FE\u5C42 48.png"
+        Dependency_6: "assets/art/texture/base/\u56FE\u5C42 50.png"
     Info_7:
       Name: assets/res/oneinone/ui/prefab/uielement/btn_temp.unity3d
       Dependencies:
@@ -51,20 +54,23 @@ AssetBundleManifest:
       Name: assets/res/oneinone/ui/prefab/uielement/vs_temp.unity3d
       Dependencies: {}
     Info_11:
-      Name: assets/res/allinone/textmesh pro/shaders/tmp_sdf-mobile.shader
+      Name: "assets/art/texture/base/\u56FE\u5C42 60.png"
       Dependencies: {}
     Info_12:
-      Name: "assets/art/texture/base/\u56FE\u5C42 58.png"
+      Name: assets/res/allinone/textmesh pro/shaders/tmp_sdf-mobile.shader
       Dependencies: {}
     Info_13:
-      Name: "assets/art/texture/base/\u56FE\u5C42 48.png"
+      Name: "assets/art/texture/base/\u56FE\u5C42 58.png"
       Dependencies: {}
     Info_14:
-      Name: "assets/art/texture/base/\u56FE\u5C42 50.png"
+      Name: "assets/art/texture/base/\u56FE\u5C42 48.png"
       Dependencies: {}
     Info_15:
-      Name: assets/res/allinone/lubangen.unity3d
+      Name: "assets/art/texture/base/\u56FE\u5C42 50.png"
       Dependencies: {}
     Info_16:
+      Name: assets/res/allinone/lubangen.unity3d
+      Dependencies: {}
+    Info_17:
       Name: assets/res/allinone/textmesh pro/sprites.unity3d
       Dependencies: {}

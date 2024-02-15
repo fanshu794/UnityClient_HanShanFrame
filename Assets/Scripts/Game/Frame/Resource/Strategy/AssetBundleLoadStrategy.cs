@@ -75,7 +75,12 @@ namespace Game.Frame
                 return _stringBuilder.ToString();
             }
         }
-        
+
+        public override string ToString()
+        {
+            return _assetBundleSystem.GetString();
+        }
+
         public override void Unload(string bundleName)
         {
             _assetBundleSystem.Unload(bundleName);
@@ -84,6 +89,8 @@ namespace Game.Frame
         public override void Dispose()
         {
             _assetBundleSystem.Dispose();
+            _assetBundleSystem = null;
+            _stringBuilder = null;
         }
     }
 }

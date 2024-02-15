@@ -18,6 +18,14 @@ public class GameEntry : MonoBehaviour
         HsClient.CreateInstance();
        // GetComponent<FlowScriptController>().StartBehaviour();
        
-       HsClient.Mediator.OpenMainView<UIHeroView>(GameUIConfig.DicUIConfigs[GameUIConfig.UIID.HeroView], null);
+       HsClient.Mediator.OpenMainView<UIHeroView>(GameUIConfig.DicUIConfigs[GameUIConfig.UIID.HeroView], null, true);
     }
+
+    // private void OnGUI()
+    // {
+    //     GUIStyle labelStyle = new GUIStyle();
+    //     // 设置字体大小
+    //     labelStyle.fontSize = 24;
+    //     GUILayout.Label(HsClient.Mediator.GetSystem<ResourceSystem>().ToString(), labelStyle);
+    // }
 }

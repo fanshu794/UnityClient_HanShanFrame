@@ -10,7 +10,7 @@ namespace Game.Main
         {
             this.AddButtonEvent("btnChoise_C", delegate(GameObject arg0)
             {
-                HsClient.Mediator.OpenMainView<UIEquipChoiseView>(GameUIConfig.DicUIConfigs[GameUIConfig.UIID.EquipChoise], null);
+                HsClient.Mediator.OpenMainView<UIEquipChoiseView>(GameUIConfig.DicUIConfigs[GameUIConfig.UIID.EquipChoise], null, true);
             });
             this.AddButtonEvent("btnClose_C", delegate(GameObject arg0)
             {

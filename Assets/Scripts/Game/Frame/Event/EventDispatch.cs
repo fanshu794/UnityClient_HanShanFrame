@@ -141,7 +141,7 @@ namespace Game.Frame
             if (_dicEvents.TryGetValue(eventId, out evts) && evts != null)
             {
                 Action act = null;
-                for (int i = 0; i < evts.Count; i++)
+                for (int i = evts.Count - 1; i >= 0; i--)
                 {
                     act = evts[i] as Action;
                     if (act != null)
@@ -163,7 +163,7 @@ namespace Game.Frame
             if (_dicEvents.TryGetValue(eventId, out evts) && evts != null)
             {
                 Action<T> act = null;
-                for (int i = 0; i < evts.Count; i++)
+                for (int i = evts.Count - 1; i >= 0; i--)
                 {
                     act = evts[i] as Action<T>;
                     if (act != null)
@@ -185,7 +185,7 @@ namespace Game.Frame
             if (_dicEvents.TryGetValue(eventId, out evts) && evts != null)
             {
                 Action<T1, T2> act = null;
-                for (int i = 0; i < evts.Count; i++)
+                for (int i = evts.Count - 1; i >= 0; i--)
                 {
                     act = evts[i] as Action<T1, T2>;
                     if (act != null)

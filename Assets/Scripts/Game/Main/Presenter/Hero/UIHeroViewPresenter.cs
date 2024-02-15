@@ -15,7 +15,7 @@ namespace Game.Main
             });
             this.AddButtonEvent("btnCommon_C", delegate(GameObject arg0)
             {
-                HsClient.Mediator.OpenMainView<UIEquipDetailView>(GameUIConfig.DicUIConfigs[GameUIConfig.UIID.EquipDetail], null);
+                HsClient.Mediator.OpenMainView<UIEquipDetailView>(GameUIConfig.DicUIConfigs[GameUIConfig.UIID.EquipDetail], null, true);
             });
         }
 

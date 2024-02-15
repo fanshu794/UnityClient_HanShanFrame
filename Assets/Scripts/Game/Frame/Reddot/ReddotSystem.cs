@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using Game.Frame;
 using Game.Main;
@@ -35,7 +36,7 @@ namespace Game.Frame
                 GameLog.Error("callback is null");
                 return;
             }
-
+            
             ReddotNode node = null;
             if (_dicAllNode.TryGetValue(path, out node) && node.IsDirty)
             {

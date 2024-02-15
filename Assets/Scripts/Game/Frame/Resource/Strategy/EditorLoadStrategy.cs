@@ -32,6 +32,11 @@ namespace Game.Frame
             return null;
         }
 
+        public override string ToString()
+        {
+            return string.Empty;
+        }
+
         public override void Unload(string path)
         {
         }
