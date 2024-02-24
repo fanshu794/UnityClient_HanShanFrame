@@ -3,7 +3,10 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Runtime.InteropServices;
+using System.Security.Cryptography;
 using Game.Frame;
+using HybridCLR.Editor;
+using HybridCLR.Editor.Commands;
 using UnityEditor;
 using UnityEngine;
 using Debug = UnityEngine.Debug;
@@ -28,7 +31,76 @@ public class ClientTools : EditorWindow
     {
         BuildAB(BuildTarget.iOS, false);
     }
+    
+    [MenuItem("客户端工具/打包代码Dll")]
+    public static void BuildAndCopyABAOTHotUpdateDlls()
+    {
+        BuildTarget target = EditorUserBuildSettings.activeBuildTarget;
+        CompileDllCommand.CompileDll(target);
+        CopyABAOTHotUpdateDlls(target);
+        AssetDatabase.Refresh();
+    }
+    
+    public static void CopyABAOTHotUpdateDlls(BuildTarget target)
+    {
+        Dictionary<string, string> dicMd5 = new Dictionary<string, string>();
+        CopyAOTAssembliesToStreamingAssets(dicMd5);
+        CopyHotUpdateAssembliesToStreamingAssets(dicMd5);
+        string[] lines = new string[dicMd5.Count];
+        int index = 0;
+        foreach (var keyVal in dicMd5)
+        {
+            lines[index++] = $"/{keyVal.Key},{keyVal.Value}";
+        }
+        File.WriteAllLines($"{Application.streamingAssetsPath}/dlls/dllList.txt", lines);
+    }
+    
+    public static void CopyAOTAssembliesToStreamingAssets(Dictionary<string, string> dicMd5)
+    {
+        var target = EditorUserBuildSettings.activeBuildTarget;
+        string aotAssembliesSrcDir = SettingsUtil.GetAssembliesPostIl2CppStripDir(target);
+        string aotAssembliesDstDir = Application.streamingAssetsPath;
 
+        foreach (var dll in AOTGenericReferences.PatchedAOTAssemblyList)
+        {
+            string srcDllPath = $"{aotAssembliesSrcDir}/{dll}";
+            if (!File.Exists(srcDllPath))
+            {
+                Debug.LogError($"ab中添加AOT补充元数据dll:{srcDllPath} 时发生错误,文件不存在。裁剪后的AOT dll在BuildPlayer时才能生成，因此需要你先构建一次游戏App后再打包。");
+                continue;
+            }
+
+            if (!File.Exists($"{aotAssembliesDstDir}/dlls"))
+            {
+                Directory.CreateDirectory($"{aotAssembliesDstDir}/dlls");
+            }
+            string dllBytesPath = $"{aotAssembliesDstDir}/dlls/{dll}.bytes";
+            dicMd5.Add($"{dll}.bytes", Md5Tool.GetMd5ByPath(dllBytesPath));
+            File.Copy(srcDllPath, dllBytesPath, true);
+            Debug.Log($"[CopyAOTAssembliesToStreamingAssets] copy AOT dll {srcDllPath} -> {dllBytesPath}");
+        }
+    }
+
+    public static void CopyHotUpdateAssembliesToStreamingAssets(Dictionary<string, string> dicMd5)
+    {
+        var target = EditorUserBuildSettings.activeBuildTarget;
+
+        string hotfixDllSrcDir = SettingsUtil.GetHotUpdateDllsOutputDirByTarget(target);
+        string hotfixAssembliesDstDir = Application.streamingAssetsPath;
+        foreach (var dll in SettingsUtil.HotUpdateAssemblyFilesExcludePreserved)
+        {
+            string dllPath = $"{hotfixDllSrcDir}/{dll}";
+            if (!File.Exists($"{hotfixAssembliesDstDir}/dlls"))
+            {
+                Directory.CreateDirectory($"{hotfixAssembliesDstDir}/dlls");
+            }
+            string dllBytesPath = $"{hotfixAssembliesDstDir}/dlls/{dll}.bytes";
+            dicMd5.Add($"{dll}.bytes", Md5Tool.GetMd5ByPath(dllBytesPath));
+            File.Copy(dllPath, dllBytesPath, true);
+            Debug.Log($"[CopyHotUpdateAssembliesToStreamingAssets] copy hotfix dll {dllPath} -> {dllBytesPath}");
+        }
+    }
+    
     public static void BuildABWindowsIncrement()
     {
         BuildAB(BuildTarget.StandaloneWindows64, true);
@@ -59,21 +131,17 @@ public class ClientTools : EditorWindow
         m_listAB.Clear();
         m_dependCount.Clear();
         m_FilesMd5.Clear();
-
+        string resAbRoot = $"{Application.streamingAssetsPath}/resources";
         if (!increment)
         {
-            if (Directory.Exists(Application.streamingAssetsPath))
+            if (Directory.Exists(resAbRoot))
             {
-                Directory.Delete(Application.streamingAssetsPath, true);
+                Directory.Delete(resAbRoot, true);
             }
 
-            Directory.CreateDirectory(Application.streamingAssetsPath);
+            Directory.CreateDirectory(resAbRoot);
         }
 
-        if (Directory.Exists(Application.streamingAssetsPath))
-        {
-            Directory.CreateDirectory(Application.streamingAssetsPath);
-        }
 
         _ProcessPrefab();
 
@@ -83,9 +151,10 @@ public class ClientTools : EditorWindow
 
         _ProcessPNG();
 
-        BuildPipeline.BuildAssetBundles(Application.streamingAssetsPath, m_listAB.ToArray(), BuildAssetBundleOptions.ChunkBasedCompression, target);
+        BuildPipeline.BuildAssetBundles(resAbRoot, m_listAB.ToArray(), BuildAssetBundleOptions.ChunkBasedCompression, target);
 
         GenerateFileList();
+        //copy
         AssetDatabase.Refresh();
         Debug.Log("AB打包成功");
     }
@@ -119,6 +188,8 @@ public class ClientTools : EditorWindow
     {
         string rootPath = "Assets/Res/AllInOne";
         _ProcessFoldersAllInOne(rootPath, "*.png");
+        rootPath = "Assets/Res/OneInOne";
+        _ProcessFoldersOneInOne(rootPath, "*.png");
     }
 
     private static void _ProcessFoldersAllInOne(string path, string searchPattern)
@@ -235,14 +306,14 @@ public class ClientTools : EditorWindow
 
     static void GenerateFileList()
     {
-        string filePath = Application.streamingAssetsPath + "/FileList.txt";
+        string filePath = $"{Application.streamingAssetsPath}/resources/FileList.txt";
 
         if (File.Exists(filePath))
         {
             File.Delete(filePath);
         }
 
-        string rootPath = Application.streamingAssetsPath;
+        string rootPath = $"{Application.streamingAssetsPath}/resources";
         _ProcessFileList(rootPath);
         string[] strs = new string[m_FilesMd5.Count];
         int i = 0;
@@ -266,7 +337,7 @@ public class ClientTools : EditorWindow
             }
             string md5 = Md5Tool.GetMd5ByPath(tmp_file);
             var shortFileName = tmp_file.Replace("\\", "/");
-            shortFileName = shortFileName.Replace(Application.streamingAssetsPath, "");
+            shortFileName = shortFileName.Replace($"{Application.streamingAssetsPath}/resources", "");
 
             ABMd5Info abMd5Info = new ABMd5Info();
             abMd5Info.fileName = shortFileName;

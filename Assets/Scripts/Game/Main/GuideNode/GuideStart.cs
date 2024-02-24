@@ -10,6 +10,12 @@ namespace Game.Main
         {
             _output = AddFlowOutput("outPut");
             _output.Call(new Flow());
+            
+        }
+        
+        public override void OnGraphStarted()
+        {
+            
         }
     }
 }

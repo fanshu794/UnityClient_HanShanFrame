@@ -1,4 +1,7 @@
-﻿using UnityEngine;
+﻿using System.Runtime.CompilerServices;
+using System.Threading.Tasks;
+using UnityEngine;
+using UnityEngine.Networking;
 
 namespace Game.Main.Extend
 {
@@ -21,6 +24,13 @@ namespace Game.Main.Extend
                 com = self.AddComponent<T>();
             }
             return com;
+        }
+        
+        public static TaskAwaiter GetAwaiter(this UnityWebRequestAsyncOperation asyncOp)
+        {
+            var tcs = new TaskCompletionSource<object>();
+            asyncOp.completed += obj => { tcs.SetResult(null); };
+            return ((Task)tcs.Task).GetAwaiter();
         }
     }
 }

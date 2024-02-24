@@ -42,7 +42,7 @@ namespace Game.Frame
         private void InitDependConfig()
         {
             mDicDependConfig.Clear();
-            AssetBundle ab = AssetBundle.LoadFromFile( $"{Application.streamingAssetsPath}/StreamingAssets");
+            AssetBundle ab = AssetBundle.LoadFromFile( $"{Application.persistentDataPath}/resources");
             AssetBundleManifest mainfest = ab.LoadAsset("AssetBundleManifest") as AssetBundleManifest;
             foreach(string assetName in mainfest.GetAllAssetBundles())
             {
@@ -58,7 +58,7 @@ namespace Game.Frame
 
         private string GetPath(string bundleName)
         {
-            return $"{Application.streamingAssetsPath}/{bundleName}";
+            return $"{Application.persistentDataPath}/{bundleName}";
         }
 
         public override void Dispose()
@@ -191,7 +191,7 @@ namespace Game.Frame
                 RecursionAddRef(bundleName);
                 return bundleEntity;
             }
-            //如果当前正在处于待销毁队列，移除队列
+            //如果当前正在处于待销毁队列，移除队列1
             //需要把其依赖项也移除队列
             if (mDicReadyToDestroyBundleEntities.TryGetValue(bundleName, out bundleEntity))
             {

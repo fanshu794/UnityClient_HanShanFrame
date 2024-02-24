@@ -1,0 +1,6 @@
+/Luban.Runtime.dll.bytes,B2-2A-57-86-69-39-2E-C1-A4-F2-A9-8E-AE-C8-07-8A
+/System.Core.dll.bytes,22-C2-BD-0F-CD-F2-81-A5-D4-88-7A-3E-2D-15-7F-C8
+/UnityEngine.AssetBundleModule.dll.bytes,45-8D-19-3A-81-5B-97-8E-81-E0-2F-62-DF-70-42-43
+/UnityEngine.CoreModule.dll.bytes,17-03-E9-2B-BE-02-48-EE-6A-6E-1A-BB-72-F4-48-D8
+/mscorlib.dll.bytes,BD-44-2E-32-74-ED-D6-80-71-25-66-A6-0A-BC-C7-51
+/Game.dll.bytes,5A-5E-E2-E6-AB-CE-2A-10-0D-52-7E-67-F9-EF-37-02

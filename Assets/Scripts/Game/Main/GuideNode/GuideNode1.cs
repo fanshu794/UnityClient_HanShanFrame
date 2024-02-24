@@ -8,6 +8,10 @@ namespace Game.Main
         private FlowInput _input;
         public int i = 1;
 
+        public override void OnGraphStarted()
+        {
+        }
+
         protected override void RegisterPorts()
         {
             _input = AddFlowInput("inPut", flow => {_output.Call(flow);});

@@ -42,6 +42,9 @@ namespace Game.Main
         public override void OnRefreshAll()
         {
             GetCom<HsToggleGroup>("ToggleGroup_C").ForthRefresh(2);
+            SetImage("img_temp_C", "Assets/Res/OneInOne/UI/Texture/ff.png");
+            SetImage("img_temp2_C", "Assets/Res/OneInOne/UI/Texture/vip.png");
+            SetImage("img_temp2_C (1)", "Assets/Res/OneInOne/UI/Texture/43.png");
         }
 
         public override void OnFocusRefresh()

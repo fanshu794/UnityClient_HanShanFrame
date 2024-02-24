@@ -1,4 +1,7 @@
-﻿using Game.Frame;
+﻿using System;
+using System.Linq;
+using Game.Frame;
+using UnityEngine;
 
 namespace Game.Main
 {
@@ -21,5 +24,25 @@ namespace Game.Main
             return ResourceSystem.LoadType.AssetBundle;
 #endif
         }
+        
+        public static int GetCurBigVersion()
+        {
+            try
+            {
+                var array = Application.version.Split('.');
+                return int.Parse(array.First());
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw;
+            }
+        }
+
+        public const string FileListName = "FileList.txt";
+
+        public const string HotNetBasePath = "http://111.229.174.62/";//"http://127.0.0.1/";
+
+        public const string VersionFileName = "version.txt";
     }
 }
