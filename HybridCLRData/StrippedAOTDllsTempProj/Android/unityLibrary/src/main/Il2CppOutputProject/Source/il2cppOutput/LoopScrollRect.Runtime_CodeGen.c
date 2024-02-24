@@ -1,0 +1,720 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 System.Single UnityEngine.UI.LoopHorizontalScrollRect::GetSize(UnityEngine.RectTransform,System.Boolean)
+extern void LoopHorizontalScrollRect_GetSize_mBB87F7A023A8F6CEF353E26C2C21A8BC4F8FFBEF (void);
+// 0x00000002 System.Single UnityEngine.UI.LoopHorizontalScrollRect::GetDimension(UnityEngine.Vector2)
+extern void LoopHorizontalScrollRect_GetDimension_m9B415BA8092304C47B05E65DF541B8151E40B553 (void);
+// 0x00000003 System.Single UnityEngine.UI.LoopHorizontalScrollRect::GetAbsDimension(UnityEngine.Vector2)
+extern void LoopHorizontalScrollRect_GetAbsDimension_mDFF6C18F51F9955D5B1EC84919FCAED28764CACB (void);
+// 0x00000004 UnityEngine.Vector2 UnityEngine.UI.LoopHorizontalScrollRect::GetVector(System.Single)
+extern void LoopHorizontalScrollRect_GetVector_mFCB3E2FF984C011F0B79F531FBA9E5052E167D45 (void);
+// 0x00000005 System.Void UnityEngine.UI.LoopHorizontalScrollRect::Awake()
+extern void LoopHorizontalScrollRect_Awake_mBA80E54D52252438D4BFF33F1DB7A30DD6377FD0 (void);
+// 0x00000006 System.Boolean UnityEngine.UI.LoopHorizontalScrollRect::UpdateItems(UnityEngine.Bounds&,UnityEngine.Bounds&)
+extern void LoopHorizontalScrollRect_UpdateItems_m5C8733BFB4CD9EB8E6E1B25FB23E3249C2985317 (void);
+// 0x00000007 System.Void UnityEngine.UI.LoopHorizontalScrollRect::.ctor()
+extern void LoopHorizontalScrollRect__ctor_m27C02FE70475E5758043FEF1C48DBA3266FB827F (void);
+// 0x00000008 System.Single UnityEngine.UI.LoopHorizontalScrollRectMulti::GetSize(UnityEngine.RectTransform,System.Boolean)
+extern void LoopHorizontalScrollRectMulti_GetSize_m3031DF09A0C75A8391FB8E6D91EC2426FE9DFEA9 (void);
+// 0x00000009 System.Single UnityEngine.UI.LoopHorizontalScrollRectMulti::GetDimension(UnityEngine.Vector2)
+extern void LoopHorizontalScrollRectMulti_GetDimension_mA738C58CEA465313D29A6EBC8C4ECE768E97AFAB (void);
+// 0x0000000A System.Single UnityEngine.UI.LoopHorizontalScrollRectMulti::GetAbsDimension(UnityEngine.Vector2)
+extern void LoopHorizontalScrollRectMulti_GetAbsDimension_m987859A95F67BBA00BC05F533224477119C5C2B8 (void);
+// 0x0000000B UnityEngine.Vector2 UnityEngine.UI.LoopHorizontalScrollRectMulti::GetVector(System.Single)
+extern void LoopHorizontalScrollRectMulti_GetVector_mB35A71B1E5B4F7967488AFA5607050960DFB74DB (void);
+// 0x0000000C System.Void UnityEngine.UI.LoopHorizontalScrollRectMulti::Awake()
+extern void LoopHorizontalScrollRectMulti_Awake_mA8B8349FEAAD1357380293945BFE1DF1190FB78C (void);
+// 0x0000000D System.Boolean UnityEngine.UI.LoopHorizontalScrollRectMulti::UpdateItems(UnityEngine.Bounds&,UnityEngine.Bounds&)
+extern void LoopHorizontalScrollRectMulti_UpdateItems_mD678E7A2689115600EED0A87D86F1E22C22B5DEC (void);
+// 0x0000000E System.Void UnityEngine.UI.LoopHorizontalScrollRectMulti::.ctor()
+extern void LoopHorizontalScrollRectMulti__ctor_mBF02AB1FBF77414B37ACDC21DA9F297EB2FC9869 (void);
+// 0x0000000F System.Void UnityEngine.UI.LoopScrollDataSource::ProvideData(UnityEngine.Transform,System.Int32)
+// 0x00000010 System.Void UnityEngine.UI.LoopScrollMultiDataSource::ProvideData(UnityEngine.Transform,System.Int32)
+// 0x00000011 UnityEngine.GameObject UnityEngine.UI.LoopScrollPrefabSource::GetObject(System.Int32)
+// 0x00000012 System.Void UnityEngine.UI.LoopScrollPrefabSource::ReturnObject(UnityEngine.Transform)
+// 0x00000013 System.Void UnityEngine.UI.LoopScrollRect::ProvideData(UnityEngine.Transform,System.Int32)
+extern void LoopScrollRect_ProvideData_mA28879831BD78D74E1DF0233A2A29B190A94A831 (void);
+// 0x00000014 UnityEngine.RectTransform UnityEngine.UI.LoopScrollRect::GetFromTempPool(System.Int32)
+extern void LoopScrollRect_GetFromTempPool_mD02F81641F4613AA1C279FF96DEDD58CD9DD3609 (void);
+// 0x00000015 System.Void UnityEngine.UI.LoopScrollRect::ReturnToTempPool(System.Boolean,System.Int32)
+extern void LoopScrollRect_ReturnToTempPool_mBBD1FFDBDD0263060456C4DE796BAD92FAC0E610 (void);
+// 0x00000016 System.Void UnityEngine.UI.LoopScrollRect::ClearTempPool()
+extern void LoopScrollRect_ClearTempPool_m8EEF1D978DD5BC62A3E2900B024EED02C9F21CF4 (void);
+// 0x00000017 System.Void UnityEngine.UI.LoopScrollRect::.ctor()
+extern void LoopScrollRect__ctor_m15644C2A8189249F4A7FF9A70A159077A780075D (void);
+// 0x00000018 System.Single UnityEngine.UI.LoopScrollRectBase::GetSize(UnityEngine.RectTransform,System.Boolean)
+// 0x00000019 System.Single UnityEngine.UI.LoopScrollRectBase::GetDimension(UnityEngine.Vector2)
+// 0x0000001A System.Single UnityEngine.UI.LoopScrollRectBase::GetAbsDimension(UnityEngine.Vector2)
+// 0x0000001B UnityEngine.Vector2 UnityEngine.UI.LoopScrollRectBase::GetVector(System.Single)
+// 0x0000001C System.Single UnityEngine.UI.LoopScrollRectBase::get_contentSpacing()
+extern void LoopScrollRectBase_get_contentSpacing_m7A10B119840477BFB2AEBBE444AB6AE0FB37FBCC (void);
+// 0x0000001D System.Int32 UnityEngine.UI.LoopScrollRectBase::get_contentConstraintCount()
+extern void LoopScrollRectBase_get_contentConstraintCount_mF370874D950C71DE894DDEE3ABE2A59ABD5A2ADE (void);
+// 0x0000001E System.Int32 UnityEngine.UI.LoopScrollRectBase::get_StartLine()
+extern void LoopScrollRectBase_get_StartLine_m0EBD06C90C8BE47C569CC8770746CE7DDA41ECBA (void);
+// 0x0000001F System.Int32 UnityEngine.UI.LoopScrollRectBase::get_CurrentLines()
+extern void LoopScrollRectBase_get_CurrentLines_m0741454316C6454CF08D543E1760A97E332D17EB (void);
+// 0x00000020 System.Int32 UnityEngine.UI.LoopScrollRectBase::get_TotalLines()
+extern void LoopScrollRectBase_get_TotalLines_m32A24736AECF45D9FDAD04B10E122C5A45D302DF (void);
+// 0x00000021 System.Boolean UnityEngine.UI.LoopScrollRectBase::UpdateItems(UnityEngine.Bounds&,UnityEngine.Bounds&)
+extern void LoopScrollRectBase_UpdateItems_mA24C1FD96648D8B8454C192D8C90AE4EE1689CC3 (void);
+// 0x00000022 UnityEngine.RectTransform UnityEngine.UI.LoopScrollRectBase::get_content()
+extern void LoopScrollRectBase_get_content_m91C032CC9B310A74D44FF124A703C392EA336268 (void);
+// 0x00000023 System.Void UnityEngine.UI.LoopScrollRectBase::set_content(UnityEngine.RectTransform)
+extern void LoopScrollRectBase_set_content_mDA48826075AADE9E08CF75E3E4E30F317B86888F (void);
+// 0x00000024 System.Boolean UnityEngine.UI.LoopScrollRectBase::get_horizontal()
+extern void LoopScrollRectBase_get_horizontal_m91718E115CADEDDCA36E371F3B1058779C86B86B (void);
+// 0x00000025 System.Void UnityEngine.UI.LoopScrollRectBase::set_horizontal(System.Boolean)
+extern void LoopScrollRectBase_set_horizontal_m0F1CB508CA17512B2DDFE3EFE17CC5D81AB92FD5 (void);
+// 0x00000026 System.Boolean UnityEngine.UI.LoopScrollRectBase::get_vertical()
+extern void LoopScrollRectBase_get_vertical_m126E96C479166F00475FA2C32B03DA0E6F81695E (void);
+// 0x00000027 System.Void UnityEngine.UI.LoopScrollRectBase::set_vertical(System.Boolean)
+extern void LoopScrollRectBase_set_vertical_mC39778EFFB709B23AB4CC5F517A1C9492A6C4696 (void);
+// 0x00000028 UnityEngine.UI.LoopScrollRectBase/MovementType UnityEngine.UI.LoopScrollRectBase::get_movementType()
+extern void LoopScrollRectBase_get_movementType_m5F7D8F64EE7F82D6BCE8F7E3A68AA9DA7CDFD307 (void);
+// 0x00000029 System.Void UnityEngine.UI.LoopScrollRectBase::set_movementType(UnityEngine.UI.LoopScrollRectBase/MovementType)
+extern void LoopScrollRectBase_set_movementType_mE6D1FBE5CD7561CFC32906EAF269BA3F155F7FBD (void);
+// 0x0000002A System.Single UnityEngine.UI.LoopScrollRectBase::get_elasticity()
+extern void LoopScrollRectBase_get_elasticity_m10E699D0344996F521178F21693E93AAEDCA9484 (void);
+// 0x0000002B System.Void UnityEngine.UI.LoopScrollRectBase::set_elasticity(System.Single)
+extern void LoopScrollRectBase_set_elasticity_mC9CD4DE5504DC549CD98DCD13D5B5A13AED95906 (void);
+// 0x0000002C System.Boolean UnityEngine.UI.LoopScrollRectBase::get_inertia()
+extern void LoopScrollRectBase_get_inertia_m4D749110FC7DC0E03792C1B7235CEF9B8726B302 (void);
+// 0x0000002D System.Void UnityEngine.UI.LoopScrollRectBase::set_inertia(System.Boolean)
+extern void LoopScrollRectBase_set_inertia_m933F567D9814EC8765308798D6B8D8D74659FC5B (void);
+// 0x0000002E System.Single UnityEngine.UI.LoopScrollRectBase::get_decelerationRate()
+extern void LoopScrollRectBase_get_decelerationRate_m6CBB46D6C9B525916A8E8BFC0B040464C1CAF158 (void);
+// 0x0000002F System.Void UnityEngine.UI.LoopScrollRectBase::set_decelerationRate(System.Single)
+extern void LoopScrollRectBase_set_decelerationRate_mCE173A03B550F24C4F016B01A9B713E6A5A402AD (void);
+// 0x00000030 System.Single UnityEngine.UI.LoopScrollRectBase::get_scrollSensitivity()
+extern void LoopScrollRectBase_get_scrollSensitivity_mA8919B0FF6E95174BD20ECA12BA314A1AA52D97E (void);
+// 0x00000031 System.Void UnityEngine.UI.LoopScrollRectBase::set_scrollSensitivity(System.Single)
+extern void LoopScrollRectBase_set_scrollSensitivity_mFDCA20DAB753D984CC85A5D7EED4CA0BD0D28D9E (void);
+// 0x00000032 UnityEngine.RectTransform UnityEngine.UI.LoopScrollRectBase::get_viewport()
+extern void LoopScrollRectBase_get_viewport_m4272D3585B9E6E4F40ACC552B55130E31537CE05 (void);
+// 0x00000033 System.Void UnityEngine.UI.LoopScrollRectBase::set_viewport(UnityEngine.RectTransform)
+extern void LoopScrollRectBase_set_viewport_mE35F66884282483786C0E9798D0BBB7AA793D64F (void);
+// 0x00000034 UnityEngine.UI.Scrollbar UnityEngine.UI.LoopScrollRectBase::get_horizontalScrollbar()
+extern void LoopScrollRectBase_get_horizontalScrollbar_m082AF77272D51F53F7DE6F7129CA4B348852F192 (void);
+// 0x00000035 System.Void UnityEngine.UI.LoopScrollRectBase::set_horizontalScrollbar(UnityEngine.UI.Scrollbar)
+extern void LoopScrollRectBase_set_horizontalScrollbar_m59226F927A67DEAA3CEC05B394F79EB7FCDBEA91 (void);
+// 0x00000036 UnityEngine.UI.Scrollbar UnityEngine.UI.LoopScrollRectBase::get_verticalScrollbar()
+extern void LoopScrollRectBase_get_verticalScrollbar_m659DF63D904B84F0299734AED6B4F4228E52C83C (void);
+// 0x00000037 System.Void UnityEngine.UI.LoopScrollRectBase::set_verticalScrollbar(UnityEngine.UI.Scrollbar)
+extern void LoopScrollRectBase_set_verticalScrollbar_m10E73EBA7806F8A2DAB0F0175C50D31E352BB71E (void);
+// 0x00000038 UnityEngine.UI.LoopScrollRectBase/ScrollbarVisibility UnityEngine.UI.LoopScrollRectBase::get_horizontalScrollbarVisibility()
+extern void LoopScrollRectBase_get_horizontalScrollbarVisibility_mEFABA09CB493F5DBB579FBA654D9A8D0568B030E (void);
+// 0x00000039 System.Void UnityEngine.UI.LoopScrollRectBase::set_horizontalScrollbarVisibility(UnityEngine.UI.LoopScrollRectBase/ScrollbarVisibility)
+extern void LoopScrollRectBase_set_horizontalScrollbarVisibility_m4BDBE58341AC345248AC42FA7FCDDEFC2A6FDC25 (void);
+// 0x0000003A UnityEngine.UI.LoopScrollRectBase/ScrollbarVisibility UnityEngine.UI.LoopScrollRectBase::get_verticalScrollbarVisibility()
+extern void LoopScrollRectBase_get_verticalScrollbarVisibility_m9D66637A6A775F563C4D77D812B2A6DE46631726 (void);
+// 0x0000003B System.Void UnityEngine.UI.LoopScrollRectBase::set_verticalScrollbarVisibility(UnityEngine.UI.LoopScrollRectBase/ScrollbarVisibility)
+extern void LoopScrollRectBase_set_verticalScrollbarVisibility_m307BCFCD049276641680227CB33ECCAEF29FD731 (void);
+// 0x0000003C System.Single UnityEngine.UI.LoopScrollRectBase::get_horizontalScrollbarSpacing()
+extern void LoopScrollRectBase_get_horizontalScrollbarSpacing_m698460CCE322253BEA8A59AAAEECC8D3E20490DA (void);
+// 0x0000003D System.Void UnityEngine.UI.LoopScrollRectBase::set_horizontalScrollbarSpacing(System.Single)
+extern void LoopScrollRectBase_set_horizontalScrollbarSpacing_mECCBB81CDEBCB4E51D644319E0C493142F58D01D (void);
+// 0x0000003E System.Single UnityEngine.UI.LoopScrollRectBase::get_verticalScrollbarSpacing()
+extern void LoopScrollRectBase_get_verticalScrollbarSpacing_mC48286FB107FAB14DED1942A1DF0AF3EEDC31E99 (void);
+// 0x0000003F System.Void UnityEngine.UI.LoopScrollRectBase::set_verticalScrollbarSpacing(System.Single)
+extern void LoopScrollRectBase_set_verticalScrollbarSpacing_m4016AE18561C73B170D1E379BC7FE2F7F2E553D2 (void);
+// 0x00000040 UnityEngine.UI.LoopScrollRectBase/ScrollRectEvent UnityEngine.UI.LoopScrollRectBase::get_onValueChanged()
+extern void LoopScrollRectBase_get_onValueChanged_mD9E618CE5769F66A580C8D401FE7617593AAADA3 (void);
+// 0x00000041 System.Void UnityEngine.UI.LoopScrollRectBase::set_onValueChanged(UnityEngine.UI.LoopScrollRectBase/ScrollRectEvent)
+extern void LoopScrollRectBase_set_onValueChanged_m3307E2D8252D2F8FDE97BE866CFA2411A8847DEA (void);
+// 0x00000042 UnityEngine.RectTransform UnityEngine.UI.LoopScrollRectBase::get_viewRect()
+extern void LoopScrollRectBase_get_viewRect_m2D65DC99FE21C879BD46F296DDD74348F97FE721 (void);
+// 0x00000043 UnityEngine.Vector2 UnityEngine.UI.LoopScrollRectBase::get_velocity()
+extern void LoopScrollRectBase_get_velocity_mE879810D9FE5EDCCF703610A2643F42C34AC2A07 (void);
+// 0x00000044 System.Void UnityEngine.UI.LoopScrollRectBase::set_velocity(UnityEngine.Vector2)
+extern void LoopScrollRectBase_set_velocity_m924949C36E1CCF8F6AA723B7DAA67921A71622C3 (void);
+// 0x00000045 UnityEngine.RectTransform UnityEngine.UI.LoopScrollRectBase::get_rectTransform()
+extern void LoopScrollRectBase_get_rectTransform_mDD95D6F88DDAB6DAF344EF664A8BF3BCCFE3C95F (void);
+// 0x00000046 System.Void UnityEngine.UI.LoopScrollRectBase::.ctor()
+extern void LoopScrollRectBase__ctor_m3C83F5ACB3C1518B9CE4B9AA3DBF7D0D33593AB8 (void);
+// 0x00000047 System.Void UnityEngine.UI.LoopScrollRectBase::ClearCells()
+extern void LoopScrollRectBase_ClearCells_mAFDD9A606D2227A8B996F83836C0F470658B0F59 (void);
+// 0x00000048 System.Int32 UnityEngine.UI.LoopScrollRectBase::GetFirstItem(System.Single&)
+extern void LoopScrollRectBase_GetFirstItem_m7366290FA686FC79B0D82C120BEAF8B21FFC8D75 (void);
+// 0x00000049 System.Int32 UnityEngine.UI.LoopScrollRectBase::GetLastItem(System.Single&)
+extern void LoopScrollRectBase_GetLastItem_m4868D54937F7BABE5753B435CD42DB0FB4B9825B (void);
+// 0x0000004A System.Void UnityEngine.UI.LoopScrollRectBase::ScrollToCell(System.Int32,System.Single)
+extern void LoopScrollRectBase_ScrollToCell_m40F17726AB9B8448DB49B88423383E68DAF17DE2 (void);
+// 0x0000004B System.Void UnityEngine.UI.LoopScrollRectBase::ScrollToCellWithinTime(System.Int32,System.Single)
+extern void LoopScrollRectBase_ScrollToCellWithinTime_mDB5F34FCFB91B0B73DF8CDACA2BFE3F41ECE8DEB (void);
+// 0x0000004C System.Collections.IEnumerator UnityEngine.UI.LoopScrollRectBase::ScrollToCellCoroutine(System.Int32,System.Single)
+extern void LoopScrollRectBase_ScrollToCellCoroutine_m12D658A96785E39652D33291AE0B9CD9F70D1285 (void);
+// 0x0000004D System.Void UnityEngine.UI.LoopScrollRectBase::ProvideData(UnityEngine.Transform,System.Int32)
+// 0x0000004E System.Void UnityEngine.UI.LoopScrollRectBase::RefreshCells()
+extern void LoopScrollRectBase_RefreshCells_m93E9E32DFAF24C21F1B563A3B42E62F2F61A8320 (void);
+// 0x0000004F System.Void UnityEngine.UI.LoopScrollRectBase::RefillCellsFromEnd(System.Int32,System.Boolean)
+extern void LoopScrollRectBase_RefillCellsFromEnd_m69C35BC381E9F6A003D38E2D48C6A9427902DA24 (void);
+// 0x00000050 System.Void UnityEngine.UI.LoopScrollRectBase::RefillCells(System.Int32,System.Single)
+extern void LoopScrollRectBase_RefillCells_mAF4537647A252B0BA0F06DAAA0B97D2D6FEBA3C0 (void);
+// 0x00000051 System.Single UnityEngine.UI.LoopScrollRectBase::NewItemAtStart(System.Boolean)
+extern void LoopScrollRectBase_NewItemAtStart_mEA9A24246892B58CECD8BF5E6F605CDFBEE6EBC3 (void);
+// 0x00000052 System.Single UnityEngine.UI.LoopScrollRectBase::DeleteItemAtStart()
+extern void LoopScrollRectBase_DeleteItemAtStart_m289A215574EC05B327487E5FBABB6900046EAC23 (void);
+// 0x00000053 System.Single UnityEngine.UI.LoopScrollRectBase::NewItemAtEnd(System.Boolean)
+extern void LoopScrollRectBase_NewItemAtEnd_m0A44716ACC41F6085BF5BFC51B86CC610D39C3D6 (void);
+// 0x00000054 System.Single UnityEngine.UI.LoopScrollRectBase::DeleteItemAtEnd()
+extern void LoopScrollRectBase_DeleteItemAtEnd_m9F52C91409505CC2E320E61B8DBFE8C00B0936EB (void);
+// 0x00000055 UnityEngine.RectTransform UnityEngine.UI.LoopScrollRectBase::GetFromTempPool(System.Int32)
+// 0x00000056 System.Void UnityEngine.UI.LoopScrollRectBase::ReturnToTempPool(System.Boolean,System.Int32)
+// 0x00000057 System.Void UnityEngine.UI.LoopScrollRectBase::ClearTempPool()
+// 0x00000058 System.Void UnityEngine.UI.LoopScrollRectBase::SrollToCell(System.Int32,System.Single)
+extern void LoopScrollRectBase_SrollToCell_mFC25F908D12B80D2A19541A8BB1B4C51A50BF8FF (void);
+// 0x00000059 System.Void UnityEngine.UI.LoopScrollRectBase::SrollToCellWithinTime(System.Int32,System.Single)
+extern void LoopScrollRectBase_SrollToCellWithinTime_mD41F4C5AE6B88ED55ECF87B91AFB32672608CFE0 (void);
+// 0x0000005A System.Void UnityEngine.UI.LoopScrollRectBase::Rebuild(UnityEngine.UI.CanvasUpdate)
+extern void LoopScrollRectBase_Rebuild_mE54B0BEA8F8F39F696B4B5BE67C9E1E7A9A77A83 (void);
+// 0x0000005B System.Void UnityEngine.UI.LoopScrollRectBase::LayoutComplete()
+extern void LoopScrollRectBase_LayoutComplete_m9B3AC6A9E26D187575CB405D6BC3C19BCC2F959A (void);
+// 0x0000005C System.Void UnityEngine.UI.LoopScrollRectBase::GraphicUpdateComplete()
+extern void LoopScrollRectBase_GraphicUpdateComplete_m68A26F4792E5517051DCFDA0417F7531F9E54C31 (void);
+// 0x0000005D System.Void UnityEngine.UI.LoopScrollRectBase::UpdateCachedData()
+extern void LoopScrollRectBase_UpdateCachedData_m66C09C81BC794BBFC394DDF5B30F7089892DDC2D (void);
+// 0x0000005E System.Void UnityEngine.UI.LoopScrollRectBase::OnEnable()
+extern void LoopScrollRectBase_OnEnable_mF297B6362C847AEFF4331F91F3BD7726D96A8EF7 (void);
+// 0x0000005F System.Void UnityEngine.UI.LoopScrollRectBase::OnDisable()
+extern void LoopScrollRectBase_OnDisable_mC141F51D98B33CB4C8262C680624DD9BC3D7CCD5 (void);
+// 0x00000060 System.Boolean UnityEngine.UI.LoopScrollRectBase::IsActive()
+extern void LoopScrollRectBase_IsActive_m579A245EFD824E3AC1157F687EC3C1BEAFEF8E84 (void);
+// 0x00000061 System.Void UnityEngine.UI.LoopScrollRectBase::EnsureLayoutHasRebuilt()
+extern void LoopScrollRectBase_EnsureLayoutHasRebuilt_mE5B6C20206A47B3D899D92B23AB4BE39ED3672D2 (void);
+// 0x00000062 System.Void UnityEngine.UI.LoopScrollRectBase::StopMovement()
+extern void LoopScrollRectBase_StopMovement_mAC57EF3FB5E3B283FACE7DEB97BDD6C300A3AD64 (void);
+// 0x00000063 System.Void UnityEngine.UI.LoopScrollRectBase::OnScroll(UnityEngine.EventSystems.PointerEventData)
+extern void LoopScrollRectBase_OnScroll_m0C71A7F620B33D9D32C761F97F7D7C84C83F3C49 (void);
+// 0x00000064 System.Void UnityEngine.UI.LoopScrollRectBase::OnInitializePotentialDrag(UnityEngine.EventSystems.PointerEventData)
+extern void LoopScrollRectBase_OnInitializePotentialDrag_mD4A8D39438535514765742945D8F7367A0F58B6B (void);
+// 0x00000065 System.Void UnityEngine.UI.LoopScrollRectBase::OnBeginDrag(UnityEngine.EventSystems.PointerEventData)
+extern void LoopScrollRectBase_OnBeginDrag_m33E69E51EBD5DE7A46ACE4B94A71323D3160ACB1 (void);
+// 0x00000066 System.Void UnityEngine.UI.LoopScrollRectBase::OnEndDrag(UnityEngine.EventSystems.PointerEventData)
+extern void LoopScrollRectBase_OnEndDrag_mD9ACC767F3D488A422B32EE1ACD73384263D3C47 (void);
+// 0x00000067 System.Void UnityEngine.UI.LoopScrollRectBase::OnDrag(UnityEngine.EventSystems.PointerEventData)
+extern void LoopScrollRectBase_OnDrag_m7E8E5792A8C30E145DF3899C2FCB7DB5CDACBA20 (void);
+// 0x00000068 System.Void UnityEngine.UI.LoopScrollRectBase::SetContentAnchoredPosition(UnityEngine.Vector2)
+extern void LoopScrollRectBase_SetContentAnchoredPosition_m8FEE5FBB2F251975D9803D4F511ABE644059269C (void);
+// 0x00000069 System.Void UnityEngine.UI.LoopScrollRectBase::LateUpdate()
+extern void LoopScrollRectBase_LateUpdate_mD6BFBD2363690828ADFEBF3CEB3BB90C587665BC (void);
+// 0x0000006A System.Void UnityEngine.UI.LoopScrollRectBase::UpdatePrevData()
+extern void LoopScrollRectBase_UpdatePrevData_m2FEDD76EA11ABCF89D5E76C043F98BFD3FCC2A2C (void);
+// 0x0000006B System.Void UnityEngine.UI.LoopScrollRectBase::GetHorizonalOffsetAndSize(System.Single&,System.Single&)
+extern void LoopScrollRectBase_GetHorizonalOffsetAndSize_mC3BEE54A456F1EBD5729F30D19F9FC441006A9E4 (void);
+// 0x0000006C System.Void UnityEngine.UI.LoopScrollRectBase::GetVerticalOffsetAndSize(System.Single&,System.Single&)
+extern void LoopScrollRectBase_GetVerticalOffsetAndSize_m70C5494C9BEFFFBC37D5FD798CFAA8D5125C9413 (void);
+// 0x0000006D System.Void UnityEngine.UI.LoopScrollRectBase::UpdateScrollbars(UnityEngine.Vector2)
+extern void LoopScrollRectBase_UpdateScrollbars_mD4413419E520DB81BA5B717080B742E48E076BE6 (void);
+// 0x0000006E UnityEngine.Vector2 UnityEngine.UI.LoopScrollRectBase::get_normalizedPosition()
+extern void LoopScrollRectBase_get_normalizedPosition_m259575B05BBA345DF4270109AB5AF2854A4E2110 (void);
+// 0x0000006F System.Void UnityEngine.UI.LoopScrollRectBase::set_normalizedPosition(UnityEngine.Vector2)
+extern void LoopScrollRectBase_set_normalizedPosition_mE55CF7F79E7C64A8FD99087338E238ADEB61BAAD (void);
+// 0x00000070 System.Single UnityEngine.UI.LoopScrollRectBase::get_horizontalNormalizedPosition()
+extern void LoopScrollRectBase_get_horizontalNormalizedPosition_m344130E736613712955EF13E4AD3A23300275EE9 (void);
+// 0x00000071 System.Void UnityEngine.UI.LoopScrollRectBase::set_horizontalNormalizedPosition(System.Single)
+extern void LoopScrollRectBase_set_horizontalNormalizedPosition_m92C9E4F94810311B1C04F69442C70EA458D01336 (void);
+// 0x00000072 System.Single UnityEngine.UI.LoopScrollRectBase::get_verticalNormalizedPosition()
+extern void LoopScrollRectBase_get_verticalNormalizedPosition_m52A4A3E3BB1F7DC5F41B259C6958E1F0A04FC0B4 (void);
+// 0x00000073 System.Void UnityEngine.UI.LoopScrollRectBase::set_verticalNormalizedPosition(System.Single)
+extern void LoopScrollRectBase_set_verticalNormalizedPosition_m96423BD70E4ECA76700164E9C1F669481AE6A98D (void);
+// 0x00000074 System.Void UnityEngine.UI.LoopScrollRectBase::SetHorizontalNormalizedPosition(System.Single)
+extern void LoopScrollRectBase_SetHorizontalNormalizedPosition_m82104E0E5D9FF2FE38AC426B993ADCF75CC05EA7 (void);
+// 0x00000075 System.Void UnityEngine.UI.LoopScrollRectBase::SetVerticalNormalizedPosition(System.Single)
+extern void LoopScrollRectBase_SetVerticalNormalizedPosition_mBCB851DC70A440E7ED2B82C544FBD208CF28D2BC (void);
+// 0x00000076 System.Void UnityEngine.UI.LoopScrollRectBase::SetNormalizedPosition(System.Single,System.Int32)
+extern void LoopScrollRectBase_SetNormalizedPosition_m706BFCD38149C1BABCD393DB0A742339094EA8D0 (void);
+// 0x00000077 System.Single UnityEngine.UI.LoopScrollRectBase::RubberDelta(System.Single,System.Single)
+extern void LoopScrollRectBase_RubberDelta_mB27ED90990F56A6364294BB79E56D334FE8B42D7 (void);
+// 0x00000078 System.Void UnityEngine.UI.LoopScrollRectBase::OnRectTransformDimensionsChange()
+extern void LoopScrollRectBase_OnRectTransformDimensionsChange_m538D4AE3154BFBA2C494846E28E95357911EC073 (void);
+// 0x00000079 System.Boolean UnityEngine.UI.LoopScrollRectBase::get_hScrollingNeeded()
+extern void LoopScrollRectBase_get_hScrollingNeeded_mE50197C78D7CD039D7408CEAA9F9826FFDF09EC6 (void);
+// 0x0000007A System.Boolean UnityEngine.UI.LoopScrollRectBase::get_vScrollingNeeded()
+extern void LoopScrollRectBase_get_vScrollingNeeded_mC0FE5E59D2E131DD3AB83C329196D82864FAB3B8 (void);
+// 0x0000007B System.Void UnityEngine.UI.LoopScrollRectBase::CalculateLayoutInputHorizontal()
+extern void LoopScrollRectBase_CalculateLayoutInputHorizontal_m8CA0D4E3DA6225B01432D4157B16FABD71CB3775 (void);
+// 0x0000007C System.Void UnityEngine.UI.LoopScrollRectBase::CalculateLayoutInputVertical()
+extern void LoopScrollRectBase_CalculateLayoutInputVertical_mC8AE999151BCA4D74333F394631179DBF0905C9A (void);
+// 0x0000007D System.Single UnityEngine.UI.LoopScrollRectBase::get_minWidth()
+extern void LoopScrollRectBase_get_minWidth_m45D56C1410FCEB387856050B49D185ACC84841B6 (void);
+// 0x0000007E System.Single UnityEngine.UI.LoopScrollRectBase::get_preferredWidth()
+extern void LoopScrollRectBase_get_preferredWidth_mF043C2E9DB916C16ACCB83BB16DA7656B7652268 (void);
+// 0x0000007F System.Single UnityEngine.UI.LoopScrollRectBase::get_flexibleWidth()
+extern void LoopScrollRectBase_get_flexibleWidth_m26F6A1CDB859DB9D3E340F78B36DAF8A27840FC9 (void);
+// 0x00000080 System.Single UnityEngine.UI.LoopScrollRectBase::get_minHeight()
+extern void LoopScrollRectBase_get_minHeight_mBE6A8DB28CBEFA80DDBAC8F6BAC843E414B37E0B (void);
+// 0x00000081 System.Single UnityEngine.UI.LoopScrollRectBase::get_preferredHeight()
+extern void LoopScrollRectBase_get_preferredHeight_mA63FC28B75015B6897B567963EAF3B9390ED45F9 (void);
+// 0x00000082 System.Single UnityEngine.UI.LoopScrollRectBase::get_flexibleHeight()
+extern void LoopScrollRectBase_get_flexibleHeight_m1FD221A5D7F23F8EFB92B77BA699C2E5B7D6D1A7 (void);
+// 0x00000083 System.Int32 UnityEngine.UI.LoopScrollRectBase::get_layoutPriority()
+extern void LoopScrollRectBase_get_layoutPriority_m4EF8F1D6FA3F8BA0B3D62BA4DECCED7A922F512B (void);
+// 0x00000084 System.Void UnityEngine.UI.LoopScrollRectBase::SetLayoutHorizontal()
+extern void LoopScrollRectBase_SetLayoutHorizontal_m48D6AFF6E03CAF01FF75EDFE2B177226456D5646 (void);
+// 0x00000085 System.Void UnityEngine.UI.LoopScrollRectBase::SetLayoutVertical()
+extern void LoopScrollRectBase_SetLayoutVertical_m02DEB00EB9B43A4AAF3511C2F024365B78C9828C (void);
+// 0x00000086 System.Void UnityEngine.UI.LoopScrollRectBase::UpdateScrollbarVisibility()
+extern void LoopScrollRectBase_UpdateScrollbarVisibility_m86F29CF1A86F2F37D5A94E094B39B7C9036292A7 (void);
+// 0x00000087 System.Void UnityEngine.UI.LoopScrollRectBase::UpdateOneScrollbarVisibility(System.Boolean,System.Boolean,UnityEngine.UI.LoopScrollRectBase/ScrollbarVisibility,UnityEngine.UI.Scrollbar)
+extern void LoopScrollRectBase_UpdateOneScrollbarVisibility_mE1C29210649F9BA874DD7EF8C682FED7448704B5 (void);
+// 0x00000088 System.Void UnityEngine.UI.LoopScrollRectBase::UpdateScrollbarLayout()
+extern void LoopScrollRectBase_UpdateScrollbarLayout_mCD41637CB992194AB0BE97275F3389DB91071C35 (void);
+// 0x00000089 System.Void UnityEngine.UI.LoopScrollRectBase::UpdateBounds(System.Boolean)
+extern void LoopScrollRectBase_UpdateBounds_mB9A2256CD69FC7EE6FA2A6101C6956C0405334FC (void);
+// 0x0000008A System.Void UnityEngine.UI.LoopScrollRectBase::AdjustBounds(UnityEngine.Bounds&,UnityEngine.Vector2&,UnityEngine.Vector3&,UnityEngine.Vector3&)
+extern void LoopScrollRectBase_AdjustBounds_m4D5606E5066F1AA7426EA7CDDE4179E4A74E3A3E (void);
+// 0x0000008B UnityEngine.Bounds UnityEngine.UI.LoopScrollRectBase::GetBounds()
+extern void LoopScrollRectBase_GetBounds_mDDA67B9903B68FA92501A6A6FA350C203632627B (void);
+// 0x0000008C UnityEngine.Bounds UnityEngine.UI.LoopScrollRectBase::InternalGetBounds(UnityEngine.Vector3[],UnityEngine.Matrix4x4&)
+extern void LoopScrollRectBase_InternalGetBounds_m376C3B3DE4A7700FBF402B9D3E41C7A7ACDD0A5F (void);
+// 0x0000008D UnityEngine.Bounds UnityEngine.UI.LoopScrollRectBase::GetBounds4Item(System.Int32)
+extern void LoopScrollRectBase_GetBounds4Item_mE2ADAFCA9220654610FCB84EB4141A8C4E8240D8 (void);
+// 0x0000008E UnityEngine.Vector2 UnityEngine.UI.LoopScrollRectBase::CalculateOffset(UnityEngine.Vector2)
+extern void LoopScrollRectBase_CalculateOffset_mA0A60EAAF21F0BD8F982490C24A8E1FDA18BFEE3 (void);
+// 0x0000008F UnityEngine.Vector2 UnityEngine.UI.LoopScrollRectBase::InternalCalculateOffset(UnityEngine.Bounds&,UnityEngine.Bounds&,System.Boolean,System.Boolean,UnityEngine.UI.LoopScrollRectBase/MovementType,UnityEngine.Vector2&)
+extern void LoopScrollRectBase_InternalCalculateOffset_m849DB15EC950592A0116D9465D6AAEF4FD912F89 (void);
+// 0x00000090 System.Void UnityEngine.UI.LoopScrollRectBase::SetDirty()
+extern void LoopScrollRectBase_SetDirty_m1FD8D5ABF73237DA16B5AB66644846A95931E09A (void);
+// 0x00000091 System.Void UnityEngine.UI.LoopScrollRectBase::SetDirtyCaching()
+extern void LoopScrollRectBase_SetDirtyCaching_m5977F290BF9B8F307CC71B44CF322D7622400A52 (void);
+// 0x00000092 UnityEngine.Transform UnityEngine.UI.LoopScrollRectBase::UnityEngine.UI.ICanvasElement.get_transform()
+extern void LoopScrollRectBase_UnityEngine_UI_ICanvasElement_get_transform_m8EFC0D5E612A09D984CFCA6520108D3A5A8BAAB5 (void);
+// 0x00000093 System.Void UnityEngine.UI.LoopScrollRectBase/ScrollRectEvent::.ctor()
+extern void ScrollRectEvent__ctor_m279A13C2194BCB7455FB1852B6F3AEB2EC821B36 (void);
+// 0x00000094 System.Void UnityEngine.UI.LoopScrollRectBase/<ScrollToCellCoroutine>d__133::.ctor(System.Int32)
+extern void U3CScrollToCellCoroutineU3Ed__133__ctor_m8B94F7F8215EA332839934D13672F0686262C42F (void);
+// 0x00000095 System.Void UnityEngine.UI.LoopScrollRectBase/<ScrollToCellCoroutine>d__133::System.IDisposable.Dispose()
+extern void U3CScrollToCellCoroutineU3Ed__133_System_IDisposable_Dispose_m6A1CBCD6D1AEB1D8E4B2AF3BCB1830136207C83A (void);
+// 0x00000096 System.Boolean UnityEngine.UI.LoopScrollRectBase/<ScrollToCellCoroutine>d__133::MoveNext()
+extern void U3CScrollToCellCoroutineU3Ed__133_MoveNext_m3ED245A2A79CF380C876EB76292708C168DB2A66 (void);
+// 0x00000097 System.Object UnityEngine.UI.LoopScrollRectBase/<ScrollToCellCoroutine>d__133::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CScrollToCellCoroutineU3Ed__133_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m60CCB3DF6E2FBCD5C95588CC79A45166F2FB1C6B (void);
+// 0x00000098 System.Void UnityEngine.UI.LoopScrollRectBase/<ScrollToCellCoroutine>d__133::System.Collections.IEnumerator.Reset()
+extern void U3CScrollToCellCoroutineU3Ed__133_System_Collections_IEnumerator_Reset_m39225DF1D9526D59166B1FEF0E7B9A47A6E7359E (void);
+// 0x00000099 System.Object UnityEngine.UI.LoopScrollRectBase/<ScrollToCellCoroutine>d__133::System.Collections.IEnumerator.get_Current()
+extern void U3CScrollToCellCoroutineU3Ed__133_System_Collections_IEnumerator_get_Current_m09207252B89C94E7C4C70E263976949CACAD2BC3 (void);
+// 0x0000009A System.Void UnityEngine.UI.LoopScrollRectMulti::ProvideData(UnityEngine.Transform,System.Int32)
+extern void LoopScrollRectMulti_ProvideData_m1868FD924FFF3F3AFCF18F559E55836CCF95F219 (void);
+// 0x0000009B UnityEngine.RectTransform UnityEngine.UI.LoopScrollRectMulti::GetFromTempPool(System.Int32)
+extern void LoopScrollRectMulti_GetFromTempPool_mA47386D365417D1A3EC8712325AAAB054F60556A (void);
+// 0x0000009C System.Void UnityEngine.UI.LoopScrollRectMulti::ReturnToTempPool(System.Boolean,System.Int32)
+extern void LoopScrollRectMulti_ReturnToTempPool_mD2C9717EB982BC0187C9EFB83BF650F1973F94F1 (void);
+// 0x0000009D System.Void UnityEngine.UI.LoopScrollRectMulti::ClearTempPool()
+extern void LoopScrollRectMulti_ClearTempPool_mE8F2FF54156CAA96A5BA7367F7425AC75264A285 (void);
+// 0x0000009E System.Void UnityEngine.UI.LoopScrollRectMulti::.ctor()
+extern void LoopScrollRectMulti__ctor_m83F9A1E07C33D71FF965369FECFAE910D6D346F6 (void);
+// 0x0000009F UnityEngine.Vector2 UnityEngine.UI.LoopScrollSizeHelper::GetItemsSize(System.Int32)
+// 0x000000A0 System.Single UnityEngine.UI.LoopVerticalScrollRect::GetSize(UnityEngine.RectTransform,System.Boolean)
+extern void LoopVerticalScrollRect_GetSize_m8BB3DFD734EE81AA2016A3FD9B549BC62F944FF1 (void);
+// 0x000000A1 System.Single UnityEngine.UI.LoopVerticalScrollRect::GetDimension(UnityEngine.Vector2)
+extern void LoopVerticalScrollRect_GetDimension_m9E85688F666C35DDDC8BC4927F9B6ED30E0684AA (void);
+// 0x000000A2 System.Single UnityEngine.UI.LoopVerticalScrollRect::GetAbsDimension(UnityEngine.Vector2)
+extern void LoopVerticalScrollRect_GetAbsDimension_m0CE74313BA1F293AB82FAECA014E488B46BA010F (void);
+// 0x000000A3 UnityEngine.Vector2 UnityEngine.UI.LoopVerticalScrollRect::GetVector(System.Single)
+extern void LoopVerticalScrollRect_GetVector_m744C60FC81FAFCD393F87C0FB9D7D41892E77204 (void);
+// 0x000000A4 System.Void UnityEngine.UI.LoopVerticalScrollRect::Awake()
+extern void LoopVerticalScrollRect_Awake_mD73ABF7832CEADEEB2329254C36E2A9DA5885356 (void);
+// 0x000000A5 System.Boolean UnityEngine.UI.LoopVerticalScrollRect::UpdateItems(UnityEngine.Bounds&,UnityEngine.Bounds&)
+extern void LoopVerticalScrollRect_UpdateItems_m68C24001CD8E5E6F5ADD1708FB1A4E89FEAE66A1 (void);
+// 0x000000A6 System.Void UnityEngine.UI.LoopVerticalScrollRect::.ctor()
+extern void LoopVerticalScrollRect__ctor_m6DA18AE87C04B53347F105AB9F6255F4F3E865F6 (void);
+// 0x000000A7 System.Single UnityEngine.UI.LoopVerticalScrollRectMulti::GetSize(UnityEngine.RectTransform,System.Boolean)
+extern void LoopVerticalScrollRectMulti_GetSize_m6D4B2DC1380848AAB8E8E9BB258FFAB6532B673A (void);
+// 0x000000A8 System.Single UnityEngine.UI.LoopVerticalScrollRectMulti::GetDimension(UnityEngine.Vector2)
+extern void LoopVerticalScrollRectMulti_GetDimension_m50FDEB1E763BB596C4E2ACB70F60119C25DF42AD (void);
+// 0x000000A9 System.Single UnityEngine.UI.LoopVerticalScrollRectMulti::GetAbsDimension(UnityEngine.Vector2)
+extern void LoopVerticalScrollRectMulti_GetAbsDimension_mE1CA48A2D2E7AB9702884691F1ABE4F15933C322 (void);
+// 0x000000AA UnityEngine.Vector2 UnityEngine.UI.LoopVerticalScrollRectMulti::GetVector(System.Single)
+extern void LoopVerticalScrollRectMulti_GetVector_mDB1CE0840141FD629D0EA73FF006FDA13774E8E4 (void);
+// 0x000000AB System.Void UnityEngine.UI.LoopVerticalScrollRectMulti::Awake()
+extern void LoopVerticalScrollRectMulti_Awake_m17758DF1D2998C7EC754547533D8EB7B85AB7BD6 (void);
+// 0x000000AC System.Boolean UnityEngine.UI.LoopVerticalScrollRectMulti::UpdateItems(UnityEngine.Bounds&,UnityEngine.Bounds&)
+extern void LoopVerticalScrollRectMulti_UpdateItems_m974C097B3891C1A033371741A06FD8F2D631EF7F (void);
+// 0x000000AD System.Void UnityEngine.UI.LoopVerticalScrollRectMulti::.ctor()
+extern void LoopVerticalScrollRectMulti__ctor_m6E24B9C3B0B419FA6842E2BA44799B7333476185 (void);
+static Il2CppMethodPointer s_methodPointers[173] = 
+{
+	LoopHorizontalScrollRect_GetSize_mBB87F7A023A8F6CEF353E26C2C21A8BC4F8FFBEF,
+	LoopHorizontalScrollRect_GetDimension_m9B415BA8092304C47B05E65DF541B8151E40B553,
+	LoopHorizontalScrollRect_GetAbsDimension_mDFF6C18F51F9955D5B1EC84919FCAED28764CACB,
+	LoopHorizontalScrollRect_GetVector_mFCB3E2FF984C011F0B79F531FBA9E5052E167D45,
+	LoopHorizontalScrollRect_Awake_mBA80E54D52252438D4BFF33F1DB7A30DD6377FD0,
+	LoopHorizontalScrollRect_UpdateItems_m5C8733BFB4CD9EB8E6E1B25FB23E3249C2985317,
+	LoopHorizontalScrollRect__ctor_m27C02FE70475E5758043FEF1C48DBA3266FB827F,
+	LoopHorizontalScrollRectMulti_GetSize_m3031DF09A0C75A8391FB8E6D91EC2426FE9DFEA9,
+	LoopHorizontalScrollRectMulti_GetDimension_mA738C58CEA465313D29A6EBC8C4ECE768E97AFAB,
+	LoopHorizontalScrollRectMulti_GetAbsDimension_m987859A95F67BBA00BC05F533224477119C5C2B8,
+	LoopHorizontalScrollRectMulti_GetVector_mB35A71B1E5B4F7967488AFA5607050960DFB74DB,
+	LoopHorizontalScrollRectMulti_Awake_mA8B8349FEAAD1357380293945BFE1DF1190FB78C,
+	LoopHorizontalScrollRectMulti_UpdateItems_mD678E7A2689115600EED0A87D86F1E22C22B5DEC,
+	LoopHorizontalScrollRectMulti__ctor_mBF02AB1FBF77414B37ACDC21DA9F297EB2FC9869,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	LoopScrollRect_ProvideData_mA28879831BD78D74E1DF0233A2A29B190A94A831,
+	LoopScrollRect_GetFromTempPool_mD02F81641F4613AA1C279FF96DEDD58CD9DD3609,
+	LoopScrollRect_ReturnToTempPool_mBBD1FFDBDD0263060456C4DE796BAD92FAC0E610,
+	LoopScrollRect_ClearTempPool_m8EEF1D978DD5BC62A3E2900B024EED02C9F21CF4,
+	LoopScrollRect__ctor_m15644C2A8189249F4A7FF9A70A159077A780075D,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	LoopScrollRectBase_get_contentSpacing_m7A10B119840477BFB2AEBBE444AB6AE0FB37FBCC,
+	LoopScrollRectBase_get_contentConstraintCount_mF370874D950C71DE894DDEE3ABE2A59ABD5A2ADE,
+	LoopScrollRectBase_get_StartLine_m0EBD06C90C8BE47C569CC8770746CE7DDA41ECBA,
+	LoopScrollRectBase_get_CurrentLines_m0741454316C6454CF08D543E1760A97E332D17EB,
+	LoopScrollRectBase_get_TotalLines_m32A24736AECF45D9FDAD04B10E122C5A45D302DF,
+	LoopScrollRectBase_UpdateItems_mA24C1FD96648D8B8454C192D8C90AE4EE1689CC3,
+	LoopScrollRectBase_get_content_m91C032CC9B310A74D44FF124A703C392EA336268,
+	LoopScrollRectBase_set_content_mDA48826075AADE9E08CF75E3E4E30F317B86888F,
+	LoopScrollRectBase_get_horizontal_m91718E115CADEDDCA36E371F3B1058779C86B86B,
+	LoopScrollRectBase_set_horizontal_m0F1CB508CA17512B2DDFE3EFE17CC5D81AB92FD5,
+	LoopScrollRectBase_get_vertical_m126E96C479166F00475FA2C32B03DA0E6F81695E,
+	LoopScrollRectBase_set_vertical_mC39778EFFB709B23AB4CC5F517A1C9492A6C4696,
+	LoopScrollRectBase_get_movementType_m5F7D8F64EE7F82D6BCE8F7E3A68AA9DA7CDFD307,
+	LoopScrollRectBase_set_movementType_mE6D1FBE5CD7561CFC32906EAF269BA3F155F7FBD,
+	LoopScrollRectBase_get_elasticity_m10E699D0344996F521178F21693E93AAEDCA9484,
+	LoopScrollRectBase_set_elasticity_mC9CD4DE5504DC549CD98DCD13D5B5A13AED95906,
+	LoopScrollRectBase_get_inertia_m4D749110FC7DC0E03792C1B7235CEF9B8726B302,
+	LoopScrollRectBase_set_inertia_m933F567D9814EC8765308798D6B8D8D74659FC5B,
+	LoopScrollRectBase_get_decelerationRate_m6CBB46D6C9B525916A8E8BFC0B040464C1CAF158,
+	LoopScrollRectBase_set_decelerationRate_mCE173A03B550F24C4F016B01A9B713E6A5A402AD,
+	LoopScrollRectBase_get_scrollSensitivity_mA8919B0FF6E95174BD20ECA12BA314A1AA52D97E,
+	LoopScrollRectBase_set_scrollSensitivity_mFDCA20DAB753D984CC85A5D7EED4CA0BD0D28D9E,
+	LoopScrollRectBase_get_viewport_m4272D3585B9E6E4F40ACC552B55130E31537CE05,
+	LoopScrollRectBase_set_viewport_mE35F66884282483786C0E9798D0BBB7AA793D64F,
+	LoopScrollRectBase_get_horizontalScrollbar_m082AF77272D51F53F7DE6F7129CA4B348852F192,
+	LoopScrollRectBase_set_horizontalScrollbar_m59226F927A67DEAA3CEC05B394F79EB7FCDBEA91,
+	LoopScrollRectBase_get_verticalScrollbar_m659DF63D904B84F0299734AED6B4F4228E52C83C,
+	LoopScrollRectBase_set_verticalScrollbar_m10E73EBA7806F8A2DAB0F0175C50D31E352BB71E,
+	LoopScrollRectBase_get_horizontalScrollbarVisibility_mEFABA09CB493F5DBB579FBA654D9A8D0568B030E,
+	LoopScrollRectBase_set_horizontalScrollbarVisibility_m4BDBE58341AC345248AC42FA7FCDDEFC2A6FDC25,
+	LoopScrollRectBase_get_verticalScrollbarVisibility_m9D66637A6A775F563C4D77D812B2A6DE46631726,
+	LoopScrollRectBase_set_verticalScrollbarVisibility_m307BCFCD049276641680227CB33ECCAEF29FD731,
+	LoopScrollRectBase_get_horizontalScrollbarSpacing_m698460CCE322253BEA8A59AAAEECC8D3E20490DA,
+	LoopScrollRectBase_set_horizontalScrollbarSpacing_mECCBB81CDEBCB4E51D644319E0C493142F58D01D,
+	LoopScrollRectBase_get_verticalScrollbarSpacing_mC48286FB107FAB14DED1942A1DF0AF3EEDC31E99,
+	LoopScrollRectBase_set_verticalScrollbarSpacing_m4016AE18561C73B170D1E379BC7FE2F7F2E553D2,
+	LoopScrollRectBase_get_onValueChanged_mD9E618CE5769F66A580C8D401FE7617593AAADA3,
+	LoopScrollRectBase_set_onValueChanged_m3307E2D8252D2F8FDE97BE866CFA2411A8847DEA,
+	LoopScrollRectBase_get_viewRect_m2D65DC99FE21C879BD46F296DDD74348F97FE721,
+	LoopScrollRectBase_get_velocity_mE879810D9FE5EDCCF703610A2643F42C34AC2A07,
+	LoopScrollRectBase_set_velocity_m924949C36E1CCF8F6AA723B7DAA67921A71622C3,
+	LoopScrollRectBase_get_rectTransform_mDD95D6F88DDAB6DAF344EF664A8BF3BCCFE3C95F,
+	LoopScrollRectBase__ctor_m3C83F5ACB3C1518B9CE4B9AA3DBF7D0D33593AB8,
+	LoopScrollRectBase_ClearCells_mAFDD9A606D2227A8B996F83836C0F470658B0F59,
+	LoopScrollRectBase_GetFirstItem_m7366290FA686FC79B0D82C120BEAF8B21FFC8D75,
+	LoopScrollRectBase_GetLastItem_m4868D54937F7BABE5753B435CD42DB0FB4B9825B,
+	LoopScrollRectBase_ScrollToCell_m40F17726AB9B8448DB49B88423383E68DAF17DE2,
+	LoopScrollRectBase_ScrollToCellWithinTime_mDB5F34FCFB91B0B73DF8CDACA2BFE3F41ECE8DEB,
+	LoopScrollRectBase_ScrollToCellCoroutine_m12D658A96785E39652D33291AE0B9CD9F70D1285,
+	NULL,
+	LoopScrollRectBase_RefreshCells_m93E9E32DFAF24C21F1B563A3B42E62F2F61A8320,
+	LoopScrollRectBase_RefillCellsFromEnd_m69C35BC381E9F6A003D38E2D48C6A9427902DA24,
+	LoopScrollRectBase_RefillCells_mAF4537647A252B0BA0F06DAAA0B97D2D6FEBA3C0,
+	LoopScrollRectBase_NewItemAtStart_mEA9A24246892B58CECD8BF5E6F605CDFBEE6EBC3,
+	LoopScrollRectBase_DeleteItemAtStart_m289A215574EC05B327487E5FBABB6900046EAC23,
+	LoopScrollRectBase_NewItemAtEnd_m0A44716ACC41F6085BF5BFC51B86CC610D39C3D6,
+	LoopScrollRectBase_DeleteItemAtEnd_m9F52C91409505CC2E320E61B8DBFE8C00B0936EB,
+	NULL,
+	NULL,
+	NULL,
+	LoopScrollRectBase_SrollToCell_mFC25F908D12B80D2A19541A8BB1B4C51A50BF8FF,
+	LoopScrollRectBase_SrollToCellWithinTime_mD41F4C5AE6B88ED55ECF87B91AFB32672608CFE0,
+	LoopScrollRectBase_Rebuild_mE54B0BEA8F8F39F696B4B5BE67C9E1E7A9A77A83,
+	LoopScrollRectBase_LayoutComplete_m9B3AC6A9E26D187575CB405D6BC3C19BCC2F959A,
+	LoopScrollRectBase_GraphicUpdateComplete_m68A26F4792E5517051DCFDA0417F7531F9E54C31,
+	LoopScrollRectBase_UpdateCachedData_m66C09C81BC794BBFC394DDF5B30F7089892DDC2D,
+	LoopScrollRectBase_OnEnable_mF297B6362C847AEFF4331F91F3BD7726D96A8EF7,
+	LoopScrollRectBase_OnDisable_mC141F51D98B33CB4C8262C680624DD9BC3D7CCD5,
+	LoopScrollRectBase_IsActive_m579A245EFD824E3AC1157F687EC3C1BEAFEF8E84,
+	LoopScrollRectBase_EnsureLayoutHasRebuilt_mE5B6C20206A47B3D899D92B23AB4BE39ED3672D2,
+	LoopScrollRectBase_StopMovement_mAC57EF3FB5E3B283FACE7DEB97BDD6C300A3AD64,
+	LoopScrollRectBase_OnScroll_m0C71A7F620B33D9D32C761F97F7D7C84C83F3C49,
+	LoopScrollRectBase_OnInitializePotentialDrag_mD4A8D39438535514765742945D8F7367A0F58B6B,
+	LoopScrollRectBase_OnBeginDrag_m33E69E51EBD5DE7A46ACE4B94A71323D3160ACB1,
+	LoopScrollRectBase_OnEndDrag_mD9ACC767F3D488A422B32EE1ACD73384263D3C47,
+	LoopScrollRectBase_OnDrag_m7E8E5792A8C30E145DF3899C2FCB7DB5CDACBA20,
+	LoopScrollRectBase_SetContentAnchoredPosition_m8FEE5FBB2F251975D9803D4F511ABE644059269C,
+	LoopScrollRectBase_LateUpdate_mD6BFBD2363690828ADFEBF3CEB3BB90C587665BC,
+	LoopScrollRectBase_UpdatePrevData_m2FEDD76EA11ABCF89D5E76C043F98BFD3FCC2A2C,
+	LoopScrollRectBase_GetHorizonalOffsetAndSize_mC3BEE54A456F1EBD5729F30D19F9FC441006A9E4,
+	LoopScrollRectBase_GetVerticalOffsetAndSize_m70C5494C9BEFFFBC37D5FD798CFAA8D5125C9413,
+	LoopScrollRectBase_UpdateScrollbars_mD4413419E520DB81BA5B717080B742E48E076BE6,
+	LoopScrollRectBase_get_normalizedPosition_m259575B05BBA345DF4270109AB5AF2854A4E2110,
+	LoopScrollRectBase_set_normalizedPosition_mE55CF7F79E7C64A8FD99087338E238ADEB61BAAD,
+	LoopScrollRectBase_get_horizontalNormalizedPosition_m344130E736613712955EF13E4AD3A23300275EE9,
+	LoopScrollRectBase_set_horizontalNormalizedPosition_m92C9E4F94810311B1C04F69442C70EA458D01336,
+	LoopScrollRectBase_get_verticalNormalizedPosition_m52A4A3E3BB1F7DC5F41B259C6958E1F0A04FC0B4,
+	LoopScrollRectBase_set_verticalNormalizedPosition_m96423BD70E4ECA76700164E9C1F669481AE6A98D,
+	LoopScrollRectBase_SetHorizontalNormalizedPosition_m82104E0E5D9FF2FE38AC426B993ADCF75CC05EA7,
+	LoopScrollRectBase_SetVerticalNormalizedPosition_mBCB851DC70A440E7ED2B82C544FBD208CF28D2BC,
+	LoopScrollRectBase_SetNormalizedPosition_m706BFCD38149C1BABCD393DB0A742339094EA8D0,
+	LoopScrollRectBase_RubberDelta_mB27ED90990F56A6364294BB79E56D334FE8B42D7,
+	LoopScrollRectBase_OnRectTransformDimensionsChange_m538D4AE3154BFBA2C494846E28E95357911EC073,
+	LoopScrollRectBase_get_hScrollingNeeded_mE50197C78D7CD039D7408CEAA9F9826FFDF09EC6,
+	LoopScrollRectBase_get_vScrollingNeeded_mC0FE5E59D2E131DD3AB83C329196D82864FAB3B8,
+	LoopScrollRectBase_CalculateLayoutInputHorizontal_m8CA0D4E3DA6225B01432D4157B16FABD71CB3775,
+	LoopScrollRectBase_CalculateLayoutInputVertical_mC8AE999151BCA4D74333F394631179DBF0905C9A,
+	LoopScrollRectBase_get_minWidth_m45D56C1410FCEB387856050B49D185ACC84841B6,
+	LoopScrollRectBase_get_preferredWidth_mF043C2E9DB916C16ACCB83BB16DA7656B7652268,
+	LoopScrollRectBase_get_flexibleWidth_m26F6A1CDB859DB9D3E340F78B36DAF8A27840FC9,
+	LoopScrollRectBase_get_minHeight_mBE6A8DB28CBEFA80DDBAC8F6BAC843E414B37E0B,
+	LoopScrollRectBase_get_preferredHeight_mA63FC28B75015B6897B567963EAF3B9390ED45F9,
+	LoopScrollRectBase_get_flexibleHeight_m1FD221A5D7F23F8EFB92B77BA699C2E5B7D6D1A7,
+	LoopScrollRectBase_get_layoutPriority_m4EF8F1D6FA3F8BA0B3D62BA4DECCED7A922F512B,
+	LoopScrollRectBase_SetLayoutHorizontal_m48D6AFF6E03CAF01FF75EDFE2B177226456D5646,
+	LoopScrollRectBase_SetLayoutVertical_m02DEB00EB9B43A4AAF3511C2F024365B78C9828C,
+	LoopScrollRectBase_UpdateScrollbarVisibility_m86F29CF1A86F2F37D5A94E094B39B7C9036292A7,
+	LoopScrollRectBase_UpdateOneScrollbarVisibility_mE1C29210649F9BA874DD7EF8C682FED7448704B5,
+	LoopScrollRectBase_UpdateScrollbarLayout_mCD41637CB992194AB0BE97275F3389DB91071C35,
+	LoopScrollRectBase_UpdateBounds_mB9A2256CD69FC7EE6FA2A6101C6956C0405334FC,
+	LoopScrollRectBase_AdjustBounds_m4D5606E5066F1AA7426EA7CDDE4179E4A74E3A3E,
+	LoopScrollRectBase_GetBounds_mDDA67B9903B68FA92501A6A6FA350C203632627B,
+	LoopScrollRectBase_InternalGetBounds_m376C3B3DE4A7700FBF402B9D3E41C7A7ACDD0A5F,
+	LoopScrollRectBase_GetBounds4Item_mE2ADAFCA9220654610FCB84EB4141A8C4E8240D8,
+	LoopScrollRectBase_CalculateOffset_mA0A60EAAF21F0BD8F982490C24A8E1FDA18BFEE3,
+	LoopScrollRectBase_InternalCalculateOffset_m849DB15EC950592A0116D9465D6AAEF4FD912F89,
+	LoopScrollRectBase_SetDirty_m1FD8D5ABF73237DA16B5AB66644846A95931E09A,
+	LoopScrollRectBase_SetDirtyCaching_m5977F290BF9B8F307CC71B44CF322D7622400A52,
+	LoopScrollRectBase_UnityEngine_UI_ICanvasElement_get_transform_m8EFC0D5E612A09D984CFCA6520108D3A5A8BAAB5,
+	ScrollRectEvent__ctor_m279A13C2194BCB7455FB1852B6F3AEB2EC821B36,
+	U3CScrollToCellCoroutineU3Ed__133__ctor_m8B94F7F8215EA332839934D13672F0686262C42F,
+	U3CScrollToCellCoroutineU3Ed__133_System_IDisposable_Dispose_m6A1CBCD6D1AEB1D8E4B2AF3BCB1830136207C83A,
+	U3CScrollToCellCoroutineU3Ed__133_MoveNext_m3ED245A2A79CF380C876EB76292708C168DB2A66,
+	U3CScrollToCellCoroutineU3Ed__133_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m60CCB3DF6E2FBCD5C95588CC79A45166F2FB1C6B,
+	U3CScrollToCellCoroutineU3Ed__133_System_Collections_IEnumerator_Reset_m39225DF1D9526D59166B1FEF0E7B9A47A6E7359E,
+	U3CScrollToCellCoroutineU3Ed__133_System_Collections_IEnumerator_get_Current_m09207252B89C94E7C4C70E263976949CACAD2BC3,
+	LoopScrollRectMulti_ProvideData_m1868FD924FFF3F3AFCF18F559E55836CCF95F219,
+	LoopScrollRectMulti_GetFromTempPool_mA47386D365417D1A3EC8712325AAAB054F60556A,
+	LoopScrollRectMulti_ReturnToTempPool_mD2C9717EB982BC0187C9EFB83BF650F1973F94F1,
+	LoopScrollRectMulti_ClearTempPool_mE8F2FF54156CAA96A5BA7367F7425AC75264A285,
+	LoopScrollRectMulti__ctor_m83F9A1E07C33D71FF965369FECFAE910D6D346F6,
+	NULL,
+	LoopVerticalScrollRect_GetSize_m8BB3DFD734EE81AA2016A3FD9B549BC62F944FF1,
+	LoopVerticalScrollRect_GetDimension_m9E85688F666C35DDDC8BC4927F9B6ED30E0684AA,
+	LoopVerticalScrollRect_GetAbsDimension_m0CE74313BA1F293AB82FAECA014E488B46BA010F,
+	LoopVerticalScrollRect_GetVector_m744C60FC81FAFCD393F87C0FB9D7D41892E77204,
+	LoopVerticalScrollRect_Awake_mD73ABF7832CEADEEB2329254C36E2A9DA5885356,
+	LoopVerticalScrollRect_UpdateItems_m68C24001CD8E5E6F5ADD1708FB1A4E89FEAE66A1,
+	LoopVerticalScrollRect__ctor_m6DA18AE87C04B53347F105AB9F6255F4F3E865F6,
+	LoopVerticalScrollRectMulti_GetSize_m6D4B2DC1380848AAB8E8E9BB258FFAB6532B673A,
+	LoopVerticalScrollRectMulti_GetDimension_m50FDEB1E763BB596C4E2ACB70F60119C25DF42AD,
+	LoopVerticalScrollRectMulti_GetAbsDimension_mE1CA48A2D2E7AB9702884691F1ABE4F15933C322,
+	LoopVerticalScrollRectMulti_GetVector_mDB1CE0840141FD629D0EA73FF006FDA13774E8E4,
+	LoopVerticalScrollRectMulti_Awake_m17758DF1D2998C7EC754547533D8EB7B85AB7BD6,
+	LoopVerticalScrollRectMulti_UpdateItems_m974C097B3891C1A033371741A06FD8F2D631EF7F,
+	LoopVerticalScrollRectMulti__ctor_m6E24B9C3B0B419FA6842E2BA44799B7333476185,
+};
+static const int32_t s_InvokerIndices[173] = 
+{
+	1815,
+	3405,
+	3405,
+	3471,
+	4546,
+	1364,
+	4546,
+	1815,
+	3405,
+	3405,
+	3471,
+	4546,
+	1364,
+	4546,
+	0,
+	0,
+	0,
+	0,
+	2212,
+	3329,
+	1879,
+	4546,
+	4546,
+	0,
+	0,
+	0,
+	0,
+	4482,
+	4417,
+	4417,
+	4417,
+	4417,
+	1364,
+	4440,
+	3741,
+	4366,
+	3664,
+	4366,
+	3664,
+	4417,
+	3721,
+	4482,
+	3780,
+	4366,
+	3664,
+	4482,
+	3780,
+	4482,
+	3780,
+	4440,
+	3741,
+	4440,
+	3741,
+	4440,
+	3741,
+	4417,
+	3721,
+	4417,
+	3721,
+	4482,
+	3780,
+	4482,
+	3780,
+	4440,
+	3741,
+	4440,
+	4534,
+	3824,
+	4440,
+	4546,
+	4546,
+	3115,
+	3115,
+	2095,
+	2095,
+	1761,
+	0,
+	4546,
+	2021,
+	2095,
+	3399,
+	4482,
+	3399,
+	4482,
+	0,
+	0,
+	0,
+	2095,
+	2095,
+	3721,
+	4546,
+	4546,
+	4546,
+	4546,
+	4546,
+	4366,
+	4546,
+	4546,
+	3741,
+	3741,
+	3741,
+	3741,
+	3741,
+	3824,
+	4546,
+	4546,
+	1867,
+	1867,
+	3824,
+	4534,
+	3824,
+	4482,
+	3780,
+	4482,
+	3780,
+	3780,
+	3780,
+	2248,
+	6326,
+	4546,
+	4366,
+	4366,
+	4546,
+	4546,
+	4482,
+	4482,
+	4482,
+	4482,
+	4482,
+	4482,
+	4417,
+	4546,
+	4546,
+	4546,
+	5457,
+	4546,
+	3664,
+	5436,
+	4365,
+	5987,
+	2470,
+	3472,
+	4830,
+	4546,
+	4546,
+	4440,
+	4546,
+	3721,
+	4546,
+	4366,
+	4440,
+	4546,
+	4440,
+	2212,
+	3329,
+	1879,
+	4546,
+	4546,
+	0,
+	1815,
+	3405,
+	3405,
+	3471,
+	4546,
+	1364,
+	4546,
+	1815,
+	3405,
+	3405,
+	3471,
+	4546,
+	1364,
+	4546,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_LoopScrollRect_Runtime_CodeGenModule;
+const Il2CppCodeGenModule g_LoopScrollRect_Runtime_CodeGenModule = 
+{
+	"LoopScrollRect.Runtime.dll",
+	173,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};
